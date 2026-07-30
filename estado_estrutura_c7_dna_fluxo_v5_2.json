@@ -1,0 +1,11 @@
+{
+  "confirmada": "BAIXA",
+  "candidata": "",
+  "confirmacoes_candidata": 0,
+  "ultima_assinatura_candidata": "",
+  "ultima_mudanca": "2026-07-30 17:59:12.408000",
+  "nivel_invalidation": 28327.75,
+  "ultimo_topo_confirmado": 28327.75,
+  "ultimo_fundo_confirmado": 28333.0,
+  "motivo_persistente": "BAIXA mantida; estrutura bruta alinhada"
+}

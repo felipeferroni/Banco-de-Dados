@@ -1,0 +1,106 @@
+﻿
+
+ProcessId      : 348
+CreationDate   : 25/07/2026 18:32:04
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" 
+                 C:\Nas100_dashboard\rotacionar_export_quantower.py
+
+ProcessId      : 4336
+CreationDate   : 25/07/2026 18:32:04
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C:\Nas100_dashboard\rotacionar_export_quantower.py
+
+ProcessId      : 13580
+CreationDate   : 25/07/2026 18:32:27
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" 
+                 C:\Nas100_dashboard\logger_estado_mercado.py
+
+ProcessId      : 13752
+CreationDate   : 25/07/2026 18:32:27
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C:\Nas100_dashboard\logger_estado_mercado.py
+
+ProcessId      : 12540
+CreationDate   : 28/07/2026 09:58:49
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" C7_LIVE_13B_SHADOW_ANALYTICS.py
+
+ProcessId      : 13080
+CreationDate   : 28/07/2026 09:58:49
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C7_LIVE_13B_SHADOW_ANALYTICS.py
+
+ProcessId      : 16000
+CreationDate   : 28/07/2026 09:59:38
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" 
+                 C7_LIVE_13D_PROMOTION_ENGINE_v2.py
+
+ProcessId      : 15496
+CreationDate   : 28/07/2026 09:59:38
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C7_LIVE_13D_PROMOTION_ENGINE_v2.py
+
+ProcessId      : 8148
+CreationDate   : 28/07/2026 19:54:29
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" C7_LIVE_13A_SHADOW_ENGINE_v2.py
+
+ProcessId      : 6280
+CreationDate   : 28/07/2026 19:54:29
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C7_LIVE_13A_SHADOW_ENGINE_v2.py
+
+ProcessId      : 9136
+CreationDate   : 28/07/2026 21:37:32
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" 
+                 C:\Nas100_dashboard\motor_operacional_c7_v3_1_campanha_virtual_logger.py
+
+ProcessId      : 14936
+CreationDate   : 28/07/2026 21:37:32
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C:\Nas100_dashboard\motor_operacional_c7_v3_1_campanha_virtual_logger.py
+
+ProcessId      : 8204
+CreationDate   : 28/07/2026 22:37:10
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" 
+                 C:\Nas100_dashboard\motor_c7_dna_fluxo_v5_2_sombra_invalidacao_v1_corrigido.py
+
+ProcessId      : 15988
+CreationDate   : 28/07/2026 22:37:10
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C:\Nas100_dashboard\motor_c7_dna_fluxo_v5_2_sombra_invalidacao_v1_corrigido.py
+
+ProcessId      : 8452
+CreationDate   : 29/07/2026 09:34:15
+ExecutablePath : C:\Program 
+                 Files\WindowsApps\PythonSoftwareFoundation.PythonManager_26.2.240.0_x64__3847v3x7pw1km\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Microsoft\WindowsApps\python.exe" 
+                 C7_LIVE_13C_STABILITY_MONITOR_v2.py
+
+ProcessId      : 7472
+CreationDate   : 29/07/2026 09:34:15
+ExecutablePath : C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe
+CommandLine    : "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\python.exe"  
+                 C7_LIVE_13C_STABILITY_MONITOR_v2.py
+
+
+

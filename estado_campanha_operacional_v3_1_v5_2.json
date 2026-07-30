@@ -1,0 +1,16 @@
+{
+  "ativa": false,
+  "lado": "",
+  "inicio": null,
+  "ultima_entrada": null,
+  "preco_entrada_inicial": null,
+  "preco_ultima_entrada": null,
+  "extremo": null,
+  "pullback_confirmado": false,
+  "nivel_rearme": null,
+  "entradas": 0,
+  "estrutura_origem": "",
+  "virtual": false,
+  "motivo_bloqueio_virtual": "",
+  "data_bloqueio_virtual": null
+}
