@@ -1,0 +1,14 @@
+﻿metrica;valor
+candidatos_total;15
+candidatos_elegiveis;5
+melhor_candidato;S191_C0
+melhor_cenario;191
+melhor_cluster;0
+melhor_score;59.755544667883825
+melhor_pf_validacao;1.416015625
+melhor_resultado_validacao;21300.0
+melhor_pf_cluster;1.0915071770334928
+melhor_resultado_cluster;15300.0
+melhor_k;3
+silhouette;0.5788682705389273
+estabilidade_ari;1.0

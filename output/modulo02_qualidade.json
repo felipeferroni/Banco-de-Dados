@@ -1,0 +1,68 @@
+{
+  "linhas_entrada": 10999,
+  "linhas_validas": 10999,
+  "removidas_datetime_preco_nulos": 0,
+  "removidas_preco_invalido": 0,
+  "duplicatas_timestamp_preco": 0,
+  "primeiro_timestamp": "2026-07-17 17:40:59",
+  "ultimo_timestamp": "2026-07-23 17:18:41",
+  "colunas_detectadas": {
+    "direction_raw": "lado",
+    "volume": null,
+    "ticks": "ticks_s",
+    "trades_count": null,
+    "bid": null,
+    "ask": null,
+    "spread": "spread_atual",
+    "delta": null,
+    "delta_cumulative": null,
+    "aggressor_buy": null,
+    "aggressor_sell": null,
+    "imbalance": "imbalance_atual"
+  },
+  "validacoes_parquet": [
+    {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m1.parquet",
+      "linhas_esperadas": 2690,
+      "linhas_lidas": 2690,
+      "valido": true,
+      "colunas": 95
+    },
+    {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m2.parquet",
+      "linhas_esperadas": 1571,
+      "linhas_lidas": 1571,
+      "valido": true,
+      "colunas": 95
+    },
+    {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m3.parquet",
+      "linhas_esperadas": 1158,
+      "linhas_lidas": 1158,
+      "valido": true,
+      "colunas": 95
+    },
+    {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m5.parquet",
+      "linhas_esperadas": 794,
+      "linhas_lidas": 794,
+      "valido": true,
+      "colunas": 95
+    },
+    {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m10.parquet",
+      "linhas_esperadas": 467,
+      "linhas_lidas": 467,
+      "valido": true,
+      "colunas": 95
+    },
+    {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\campanhas.parquet",
+      "linhas_esperadas": 1302,
+      "linhas_lidas": 1302,
+      "valido": true,
+      "colunas": 389
+    }
+  ],
+  "todos_parquets_validos": true
+}

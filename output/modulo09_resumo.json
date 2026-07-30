@@ -1,0 +1,93 @@
+{
+  "modulo": 9,
+  "versao": "9.0.0",
+  "gerado_em": "2026-07-23T19:15:39",
+  "candidatos_comparados": 15,
+  "comparacoes_pareadas": 45,
+  "candidatos_pareto": 15,
+  "candidatos_selecionados_modulo10": 5,
+  "melhor_modulo07": "S191_C0",
+  "melhor_modulo09": {
+    "candidate_id": "S191_C0",
+    "scenario_id": 191,
+    "cluster_id": 0,
+    "comparison_score": 67.44277713795198,
+    "ranking_score_modulo07": 59.755544667883825,
+    "rank_change_vs_modulo07": 0.0,
+    "val_profit_factor": 1.416015625,
+    "val_net_mt5_points": 21300.0,
+    "cluster_profit_factor": 1.0915071770334928,
+    "cluster_net_mt5_points": 15300.0
+  },
+  "selecionados_modulo10": [
+    {
+      "optimizer_seed_rank": 1,
+      "candidate_id": "S191_C0",
+      "scenario_id": 191,
+      "cluster_id": 0,
+      "comparison_score": 67.44277713795198
+    },
+    {
+      "optimizer_seed_rank": 2,
+      "candidate_id": "S192_C0",
+      "scenario_id": 192,
+      "cluster_id": 0,
+      "comparison_score": 67.44277713795198
+    },
+    {
+      "optimizer_seed_rank": 3,
+      "candidate_id": "S184_C0",
+      "scenario_id": 184,
+      "cluster_id": 0,
+      "comparison_score": 67.126175507062
+    },
+    {
+      "optimizer_seed_rank": 4,
+      "candidate_id": "S187_C0",
+      "scenario_id": 187,
+      "cluster_id": 0,
+      "comparison_score": 67.126175507062
+    },
+    {
+      "optimizer_seed_rank": 5,
+      "candidate_id": "S185_C0",
+      "scenario_id": 185,
+      "cluster_id": 0,
+      "comparison_score": 66.85075654308542
+    }
+  ],
+  "arquivos": {
+    "comparacao": "C:\\Nas100_dashboard\\C7_LAB\\database\\comparacao_candidatos_modulo09.parquet",
+    "pareada": "C:\\Nas100_dashboard\\C7_LAB\\database\\comparacao_pareada_modulo09.parquet",
+    "pareto": "C:\\Nas100_dashboard\\C7_LAB\\database\\fronteira_pareto_modulo09.parquet",
+    "selecionados": "C:\\Nas100_dashboard\\C7_LAB\\database\\candidatos_selecionados_modulo09.parquet"
+  },
+  "configuracao": {
+    "raiz": ".",
+    "top_candidatos_comparacao": 10,
+    "max_candidatos_otimizador": 5,
+    "minimo_trades": 30,
+    "minimo_pf_validacao": 1.0,
+    "minimo_resultado_validacao": 0.0,
+    "limite_concentracao_pct": 85.0,
+    "peso_desempenho": 24.0,
+    "peso_validacao": 22.0,
+    "peso_estabilidade": 18.0,
+    "peso_risco": 14.0,
+    "peso_amostra": 8.0,
+    "peso_padroes": 7.0,
+    "peso_cluster": 7.0,
+    "pf_teto": 3.0,
+    "resultado_escala": 100000.0,
+    "drawdown_escala": 100000.0,
+    "trades_escala": 150,
+    "desvio_score_escala": 15.0,
+    "bootstrap_iteracoes": 3000,
+    "bootstrap_semente": 20260723,
+    "intervalo_confianca": 0.95,
+    "exigir_elegibilidade_preliminar": true,
+    "exigir_pareto": false,
+    "maximo_por_cenario": 2
+  },
+  "log": "C:\\Nas100_dashboard\\C7_LAB\\logs\\modulo09_20260723_191528.log"
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C7 LAB - Relatório Consolidado</title>
+<style>
+    :root { --bg:#0b1020; --panel:#121a2e; --panel2:#17213a; --text:#edf2ff;
+      --muted:#aab6d3; --line:#2a385b; --good:#1fbf75; --warn:#e4b341;
+      --bad:#ef5f67; --accent:#67a2ff; --neutral:#6f7d9f; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Segoe UI,Arial,sans-serif; background:var(--bg);
+      color:var(--text); line-height:1.45; }
+    .container { max-width:1500px; margin:0 auto; padding:28px; }
+    .hero { padding:28px; background:linear-gradient(135deg,#15213e,#0f1730);
+      border:1px solid var(--line); border-radius:18px; margin-bottom:22px; }
+    h1,h2 { margin-top:0; } h1 { margin-bottom:6px; font-size:32px; }
+    h2 { font-size:22px; margin-bottom:14px; } .muted { color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:14px; margin:20px 0; }
+    .card,.section { background:var(--panel); border:1px solid var(--line);
+      border-radius:14px; }
+    .card { padding:18px; } .card-label { color:var(--muted); font-size:13px; }
+    .card-value { font-size:25px; font-weight:700; margin:5px 0; }
+    .card-note { color:var(--muted); font-size:12px; }
+    .section { padding:22px; margin-bottom:20px; }
+    .table-wrap { overflow-x:auto; }
+    table { width:100%; border-collapse:collapse; font-size:13px; min-width:850px; }
+    th,td { padding:10px 9px; border-bottom:1px solid var(--line); text-align:left;
+      white-space:nowrap; vertical-align:middle; }
+    th { color:#cbd6f4; background:var(--panel2); position:sticky; top:0; }
+    tr:hover td { background:rgba(103,162,255,.05); }
+    .badge { display:inline-block; padding:3px 8px; border-radius:999px;
+      font-size:11px; font-weight:700; }
+    .badge.good { background:rgba(31,191,117,.16); color:#74e4ae; }
+    .badge.warn { background:rgba(228,179,65,.16); color:#f4d27f; }
+    .badge.bad { background:rgba(239,95,103,.16); color:#ff9ca2; }
+    .badge.neutral { background:rgba(111,125,159,.2); color:#c3cbe0; }
+    .score-cell { min-width:150px; }
+    .bar-wrap { height:6px; background:#25304d; border-radius:6px; margin-top:5px; overflow:hidden; }
+    .bar { height:100%; border-radius:6px; }
+    .bar-main { background:linear-gradient(90deg,#67a2ff,#8d7cff); }
+    ul { padding-left:20px; } li { margin-bottom:8px; }
+    .footer { color:var(--muted); text-align:center; padding:20px 0 8px; font-size:12px; }
+    </style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>C7 LAB - Relatório Consolidado</h1>
+    <div class="muted">Módulos 04 a 07 · gerado em 23/07/2026 19:03:48</div>
+    <div class="cards">
+        <div class="card">
+          <div class="card-label">Melhor candidato</div>
+          <div class="card-value">S191_C0</div>
+          <div class="card-note">Cenário + cluster</div>
+        </div>
+        
+        <div class="card">
+          <div class="card-label">Score final</div>
+          <div class="card-value">59,7555</div>
+          <div class="card-note">Ranking consolidado</div>
+        </div>
+        
+        <div class="card">
+          <div class="card-label">PF validação</div>
+          <div class="card-value">1,4160</div>
+          <div class="card-note">Fora do treino</div>
+        </div>
+        
+        <div class="card">
+          <div class="card-label">Resultado validação</div>
+          <div class="card-value">21.300,00</div>
+          <div class="card-note">Pontos MT5</div>
+        </div>
+        
+        <div class="card">
+          <div class="card-label">Elegíveis</div>
+          <div class="card-value">5</div>
+          <div class="card-note">Pré-seleção</div>
+        </div>
+        
+        <div class="card">
+          <div class="card-label">Melhor K</div>
+          <div class="card-value">3</div>
+          <div class="card-note">Silhouette 0,5789</div>
+        </div>
+        </div>
+  </div>
+  <div class="section">
+    <h2>Leitura executiva</h2>
+    <ul><li>O melhor candidato atual é S191_C0, com score final 59,7555, PF de validação 1,4160 e resultado de validação 21.300,00.</li><li>Foram encontrados 5 candidatos elegíveis preliminares entre 15 combinações.</li><li>O melhor candidato pertence a um cluster dominante e recebeu penalidade de concentração. Isso deverá ser reavaliado no Comparador e no Validador.</li><li>O PF de validação supera o PF interno do cluster, portanto o desempenho não parece depender exclusivamente da segmentação por regime.</li></ul>
+    <p class="muted">Este relatório organiza os resultados existentes e não substitui a validação final.</p>
+  </div>
+  <div class="section">
+    <h2>Ranking consolidado</h2>
+    <div class="table-wrap"><table><thead><tr>
+      <th>Posição</th><th>Candidato</th><th>Cenário</th><th>Cluster</th>
+      <th>TP</th><th>SL</th><th>Proteção</th><th>PF validação</th>
+      <th>Validação líquida</th><th>PF cluster</th><th>Trades cluster</th>
+      <th>Score final</th><th>Elegível</th>
+    </tr></thead><tbody>
+            <tr>
+              <td>1</td>
+              <td><strong>S191_C0</strong></td>
+              <td>191</td>
+              <td>0</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">NÃO</span></td>
+              <td><span class="badge good">1,4160</span></td>
+              <td><span class="badge good">21.300,00</span></td>
+              <td><span class="badge warn">1,0915</span></td>
+              <td>282</td>
+              <td><div class="score-cell"><span>59,7555</span><div class="bar-wrap"><div class="bar bar-main" style="width:100.00%"></div></div></div></td>
+              <td><span class="badge good">SIM</span></td>
+            </tr>
+            
+            <tr>
+              <td>2</td>
+              <td><strong>S192_C0</strong></td>
+              <td>192</td>
+              <td>0</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">NÃO</span></td>
+              <td><span class="badge good">1,4160</span></td>
+              <td><span class="badge good">21.300,00</span></td>
+              <td><span class="badge warn">1,0915</span></td>
+              <td>282</td>
+              <td><div class="score-cell"><span>59,7555</span><div class="bar-wrap"><div class="bar bar-main" style="width:100.00%"></div></div></div></td>
+              <td><span class="badge good">SIM</span></td>
+            </tr>
+            
+            <tr>
+              <td>3</td>
+              <td><strong>S184_C0</strong></td>
+              <td>184</td>
+              <td>0</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,4254</span></td>
+              <td><span class="badge good">19.400,00</span></td>
+              <td><span class="badge warn">1,0776</span></td>
+              <td>282</td>
+              <td><div class="score-cell"><span>59,0127</span><div class="bar-wrap"><div class="bar bar-main" style="width:98.76%"></div></div></div></td>
+              <td><span class="badge good">SIM</span></td>
+            </tr>
+            
+            <tr>
+              <td>4</td>
+              <td><strong>S187_C0</strong></td>
+              <td>187</td>
+              <td>0</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,4254</span></td>
+              <td><span class="badge good">19.400,00</span></td>
+              <td><span class="badge warn">1,0776</span></td>
+              <td>282</td>
+              <td><div class="score-cell"><span>59,0127</span><div class="bar-wrap"><div class="bar bar-main" style="width:98.76%"></div></div></div></td>
+              <td><span class="badge good">SIM</span></td>
+            </tr>
+            
+            <tr>
+              <td>5</td>
+              <td><strong>S185_C0</strong></td>
+              <td>185</td>
+              <td>0</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,3832</span></td>
+              <td><span class="badge good">18.700,00</span></td>
+              <td><span class="badge warn">1,0642</span></td>
+              <td>282</td>
+              <td><div class="score-cell"><span>58,7355</span><div class="bar-wrap"><div class="bar bar-main" style="width:98.29%"></div></div></div></td>
+              <td><span class="badge good">SIM</span></td>
+            </tr>
+            
+            <tr>
+              <td>6</td>
+              <td><strong>S184_C2</strong></td>
+              <td>184</td>
+              <td>2</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,4254</span></td>
+              <td><span class="badge good">19.400,00</span></td>
+              <td><span class="badge good">1,5625</span></td>
+              <td>3</td>
+              <td><div class="score-cell"><span>37,1185</span><div class="bar-wrap"><div class="bar bar-main" style="width:62.12%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>7</td>
+              <td><strong>S187_C2</strong></td>
+              <td>187</td>
+              <td>2</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,4254</span></td>
+              <td><span class="badge good">19.400,00</span></td>
+              <td><span class="badge good">1,5625</span></td>
+              <td>3</td>
+              <td><div class="score-cell"><span>37,1185</span><div class="bar-wrap"><div class="bar bar-main" style="width:62.12%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>8</td>
+              <td><strong>S191_C2</strong></td>
+              <td>191</td>
+              <td>2</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">NÃO</span></td>
+              <td><span class="badge good">1,4160</span></td>
+              <td><span class="badge good">21.300,00</span></td>
+              <td><span class="badge good">1,5625</span></td>
+              <td>3</td>
+              <td><div class="score-cell"><span>37,0285</span><div class="bar-wrap"><div class="bar bar-main" style="width:61.97%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>9</td>
+              <td><strong>S192_C2</strong></td>
+              <td>192</td>
+              <td>2</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">NÃO</span></td>
+              <td><span class="badge good">1,4160</span></td>
+              <td><span class="badge good">21.300,00</span></td>
+              <td><span class="badge good">1,5625</span></td>
+              <td>3</td>
+              <td><div class="score-cell"><span>37,0285</span><div class="bar-wrap"><div class="bar bar-main" style="width:61.97%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>10</td>
+              <td><strong>S185_C2</strong></td>
+              <td>185</td>
+              <td>2</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,3832</span></td>
+              <td><span class="badge good">18.700,00</span></td>
+              <td><span class="badge good">1,5625</span></td>
+              <td>3</td>
+              <td><div class="score-cell"><span>36,8508</span><div class="bar-wrap"><div class="bar bar-main" style="width:61.67%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>11</td>
+              <td><strong>S184_C1</strong></td>
+              <td>184</td>
+              <td>1</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,4254</span></td>
+              <td><span class="badge good">19.400,00</span></td>
+              <td><span class="badge bad">0,4934</span></td>
+              <td>22</td>
+              <td><div class="score-cell"><span>30,0563</span><div class="bar-wrap"><div class="bar bar-main" style="width:50.30%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>12</td>
+              <td><strong>S187_C1</strong></td>
+              <td>187</td>
+              <td>1</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,4254</span></td>
+              <td><span class="badge good">19.400,00</span></td>
+              <td><span class="badge bad">0,4934</span></td>
+              <td>22</td>
+              <td><div class="score-cell"><span>30,0563</span><div class="bar-wrap"><div class="bar bar-main" style="width:50.30%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>13</td>
+              <td><strong>S191_C1</strong></td>
+              <td>191</td>
+              <td>1</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">NÃO</span></td>
+              <td><span class="badge good">1,4160</span></td>
+              <td><span class="badge good">21.300,00</span></td>
+              <td><span class="badge bad">0,4934</span></td>
+              <td>22</td>
+              <td><div class="score-cell"><span>29,9428</span><div class="bar-wrap"><div class="bar bar-main" style="width:50.11%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>14</td>
+              <td><strong>S192_C1</strong></td>
+              <td>192</td>
+              <td>1</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">NÃO</span></td>
+              <td><span class="badge good">1,4160</span></td>
+              <td><span class="badge good">21.300,00</span></td>
+              <td><span class="badge bad">0,4934</span></td>
+              <td>22</td>
+              <td><div class="score-cell"><span>29,9428</span><div class="bar-wrap"><div class="bar bar-main" style="width:50.11%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            
+            <tr>
+              <td>15</td>
+              <td><strong>S185_C1</strong></td>
+              <td>185</td>
+              <td>1</td>
+              <td>2.500</td>
+              <td>800</td>
+              <td><span class="badge neutral">SIM</span></td>
+              <td><span class="badge good">1,3832</span></td>
+              <td><span class="badge good">18.700,00</span></td>
+              <td><span class="badge bad">0,4934</span></td>
+              <td>22</td>
+              <td><div class="score-cell"><span>29,7662</span><div class="bar-wrap"><div class="bar bar-main" style="width:49.81%"></div></div></div></td>
+              <td><span class="badge bad">NÃO</span></td>
+            </tr>
+            </tbody></table></div>
+  </div>
+  <div class="section"><h2>Ranking por cenário</h2><div class="table-wrap"><table><thead><tr><th>Posição</th><th>Cenário</th><th>Melhor cluster</th><th>Melhor score</th><th>Score médio</th><th>TP</th><th>SL</th><th>PF validação</th><th>Validação líquida</th><th>Padrões fortes</th></tr></thead><tbody><tr><td>1</td><td>191</td><td>0</td><td>59,7555</td><td>42,2423</td><td>2.500,00</td><td>800,00</td><td><span class="badge good">1,4160</span></td><td><span class="badge good">21.300,00</span></td><td>96</td></tr><tr><td>2</td><td>192</td><td>0</td><td>59,7555</td><td>42,2423</td><td>2.500,00</td><td>800,00</td><td><span class="badge good">1,4160</span></td><td><span class="badge good">21.300,00</span></td><td>96</td></tr><tr><td>3</td><td>184</td><td>0</td><td>59,0127</td><td>42,0625</td><td>2.500,00</td><td>800,00</td><td><span class="badge good">1,4254</span></td><td><span class="badge good">19.400,00</span></td><td>99</td></tr><tr><td>4</td><td>187</td><td>0</td><td>59,0127</td><td>42,0625</td><td>2.500,00</td><td>800,00</td><td><span class="badge good">1,4254</span></td><td><span class="badge good">19.400,00</span></td><td>99</td></tr><tr><td>5</td><td>185</td><td>0</td><td>58,7355</td><td>41,7842</td><td>2.500,00</td><td>800,00</td><td><span class="badge good">1,3832</span></td><td><span class="badge good">18.700,00</span></td><td>101</td></tr></tbody></table></div></div>
+  <div class="section"><h2>Principais padrões</h2><div class="table-wrap"><table><thead><tr><th>Posição</th><th>Cenário</th><th>Feature</th><th>Condição</th><th>Trades</th><th>PF</th><th>Líquido</th><th>Lift WR</th><th>Score</th></tr></thead><tbody><tr><td>1</td><td>245</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,9688</span></td><td><span class="badge good">31.000,00</span></td><td>12,93%</td><td>69,9129</td></tr><tr><td>2</td><td>248</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,9688</span></td><td><span class="badge good">31.000,00</span></td><td>12,93%</td><td>69,8985</td></tr><tr><td>3</td><td>191</td><td>delta30</td><td>(-3.0, 9.0]</td><td>59</td><td><span class="badge good">1,9965</span></td><td><span class="badge good">28.700,00</span></td><td>13,90%</td><td>69,7634</td></tr><tr><td>4</td><td>192</td><td>delta30</td><td>(-3.0, 9.0]</td><td>59</td><td><span class="badge good">1,9965</span></td><td><span class="badge good">28.700,00</span></td><td>13,90%</td><td>69,7634</td></tr><tr><td>5</td><td>244</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,9737</span></td><td><span class="badge good">29.600,00</span></td><td>12,39%</td><td>69,4995</td></tr><tr><td>6</td><td>247</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,9737</span></td><td><span class="badge good">29.600,00</span></td><td>12,39%</td><td>69,4850</td></tr><tr><td>7</td><td>184</td><td>score_oposto</td><td>(18.0, 25.0]</td><td>63</td><td><span class="badge good">2,0508</span></td><td><span class="badge good">26.900,00</span></td><td>12,49%</td><td>69,4707</td></tr><tr><td>8</td><td>187</td><td>score_oposto</td><td>(18.0, 25.0]</td><td>63</td><td><span class="badge good">2,0508</span></td><td><span class="badge good">26.900,00</span></td><td>12,49%</td><td>69,4707</td></tr><tr><td>9</td><td>185</td><td>delta30</td><td>(-3.0, 9.0]</td><td>59</td><td><span class="badge good">1,8750</span></td><td><span class="badge good">24.500,00</span></td><td>13,77%</td><td>68,1841</td></tr><tr><td>10</td><td>188</td><td>delta30</td><td>(-3.0, 9.0]</td><td>59</td><td><span class="badge good">1,8750</span></td><td><span class="badge good">24.500,00</span></td><td>13,77%</td><td>68,1841</td></tr><tr><td>11</td><td>185</td><td>score_oposto</td><td>(18.0, 25.0]</td><td>63</td><td><span class="badge good">1,9301</span></td><td><span class="badge good">25.300,00</span></td><td>11,51%</td><td>68,0789</td></tr><tr><td>12</td><td>188</td><td>score_oposto</td><td>(18.0, 25.0]</td><td>63</td><td><span class="badge good">1,9301</span></td><td><span class="badge good">25.300,00</span></td><td>11,51%</td><td>68,0789</td></tr><tr><td>13</td><td>191</td><td>estado_delta_segundos</td><td>(0.041, 0.518]</td><td>62</td><td><span class="badge good">1,8429</span></td><td><span class="badge good">26.300,00</span></td><td>12,02%</td><td>67,8782</td></tr><tr><td>14</td><td>192</td><td>estado_delta_segundos</td><td>(0.041, 0.518]</td><td>62</td><td><span class="badge good">1,8429</span></td><td><span class="badge good">26.300,00</span></td><td>12,02%</td><td>67,8782</td></tr><tr><td>15</td><td>184</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,8581</span></td><td><span class="badge good">25.400,00</span></td><td>12,49%</td><td>67,8697</td></tr><tr><td>16</td><td>187</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,8581</span></td><td><span class="badge good">25.400,00</span></td><td>12,49%</td><td>67,8697</td></tr><tr><td>17</td><td>191</td><td>score_oposto</td><td>(18.0, 25.0]</td><td>63</td><td><span class="badge good">1,7969</span></td><td><span class="badge good">25.500,00</span></td><td>11,43%</td><td>67,1704</td></tr><tr><td>18</td><td>192</td><td>score_oposto</td><td>(18.0, 25.0]</td><td>63</td><td><span class="badge good">1,7969</span></td><td><span class="badge good">25.500,00</span></td><td>11,43%</td><td>67,1704</td></tr><tr><td>19</td><td>185</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,8092</span></td><td><span class="badge good">24.600,00</span></td><td>11,51%</td><td>67,0824</td></tr><tr><td>20</td><td>188</td><td>gate_vel15</td><td>False</td><td>66</td><td><span class="badge good">1,8092</span></td><td><span class="badge good">24.600,00</span></td><td>11,51%</td><td>67,0824</td></tr><tr><td>21</td><td>245</td><td>venda10</td><td>(-0.001, 6.0]</td><td>63</td><td><span class="badge good">1,7378</span></td><td><span class="badge good">24.200,00</span></td><td>11,27%</td><td>66,6390</td></tr><tr><td>22</td><td>248</td><td>venda10</td><td>(-0.001, 6.0]</td><td>63</td><td><span class="badge good">1,7378</span></td><td><span class="badge good">24.200,00</span></td><td>11,27%</td><td>66,6237</td></tr><tr><td>23</td><td>245</td><td>swing_mais_recente_preco</td><td>(29089.35, 29169.6]</td><td>61</td><td><span class="badge good">1,8214</span></td><td><span class="badge good">23.000,00</span></td><td>8,98%</td><td>66,0544</td></tr><tr><td>24</td><td>248</td><td>swing_mais_recente_preco</td><td>(29089.35, 29169.6]</td><td>61</td><td><span class="badge good">1,8214</span></td><td><span class="badge good">23.000,00</span></td><td>8,98%</td><td>66,0390</td></tr><tr><td>25</td><td>185</td><td>estado_delta_segundos</td><td>(0.041, 0.518]</td><td>62</td><td><span class="badge good">1,8555</span></td><td><span class="badge good">21.900,00</span></td><td>8,82%</td><td>65,8536</td></tr><tr><td>26</td><td>188</td><td>estado_delta_segundos</td><td>(0.041, 0.518]</td><td>62</td><td><span class="badge good">1,8555</span></td><td><span class="badge good">21.900,00</span></td><td>8,82%</td><td>65,8536</td></tr><tr><td>27</td><td>245</td><td>fundo_30s</td><td>(29081.65, 29165.2]</td><td>61</td><td><span class="badge good">1,7708</span></td><td><span class="badge good">22.200,00</span></td><td>8,98%</td><td>65,5663</td></tr><tr><td>28</td><td>184</td><td>delta30</td><td>(-3.0, 9.0]</td><td>59</td><td><span class="badge good">1,7463</span></td><td><span class="badge good">20.300,00</span></td><td>11,36%</td><td>65,5661</td></tr><tr><td>29</td><td>187</td><td>delta30</td><td>(-3.0, 9.0]</td><td>59</td><td><span class="badge good">1,7463</span></td><td><span class="badge good">20.300,00</span></td><td>11,36%</td><td>65,5661</td></tr><tr><td>30</td><td>248</td><td>fundo_30s</td><td>(29081.65, 29165.2]</td><td>61</td><td><span class="badge good">1,7708</span></td><td><span class="badge good">22.200,00</span></td><td>8,98%</td><td>65,5507</td></tr></tbody></table></div></div>
+  <div class="section"><h2>Ranking por cluster</h2><div class="table-wrap"><table><thead><tr><th>Posição</th><th>Cluster</th><th>Melhor score</th><th>Score médio</th><th>Cenários</th><th>Elegíveis</th><th>Trades</th><th>PF médio</th><th>Líquido total</th><th>Participação média</th></tr></thead><tbody><tr><td>1</td><td>0</td><td>59,7555</td><td>59,2544</td><td>5</td><td>5</td><td>1.410</td><td><span class="badge warn">1,0805</span></td><td><span class="badge good">61.700,00</span></td><td>91,86%</td></tr><tr><td>2</td><td>2</td><td>37,1185</td><td>37,0290</td><td>5</td><td>0</td><td>15</td><td><span class="badge good">1,5625</span></td><td><span class="badge good">4.500,00</span></td><td>0,98%</td></tr><tr><td>3</td><td>1</td><td>30,0563</td><td>29,9529</td><td>5</td><td>0</td><td>110</td><td><span class="badge bad">0,4934</span></td><td><span class="badge bad">-38.500,00</span></td><td>7,17%</td></tr></tbody></table></div></div>
+  <div class="section"><h2>Avaliação da clusterização</h2><div class="table-wrap"><table><thead><tr><th>Posição</th><th>K</th><th>Silhouette</th><th>Calinski-Harabasz</th><th>Davies-Bouldin</th><th>Estabilidade ARI</th><th>Balanceamento</th><th>Menor cluster</th><th>Maior cluster</th><th>Score</th></tr></thead><tbody><tr><td>1</td><td>3</td><td>0,5789</td><td>486,07</td><td>0,8276</td><td>1,0000</td><td>0,2841</td><td>15</td><td>1.410</td><td>78,8157</td></tr><tr><td>2</td><td>2</td><td>0,6118</td><td>497,89</td><td>1,1350</td><td>1,0000</td><td>0,4072</td><td>125</td><td>1.410</td><td>78,4795</td></tr><tr><td>3</td><td>4</td><td>0,5897</td><td>516,98</td><td>0,6617</td><td>0,9902</td><td>0,2408</td><td>5</td><td>1.405</td><td>42,3446</td></tr><tr><td>4</td><td>5</td><td>0,2665</td><td>479,97</td><td>1,1411</td><td>0,9958</td><td>0,4969</td><td>5</td><td>1.115</td><td>21,6057</td></tr><tr><td>5</td><td>7</td><td>0,2025</td><td>428,38</td><td>1,2032</td><td>0,9885</td><td>0,6382</td><td>5</td><td>840</td><td>14,3321</td></tr><tr><td>6</td><td>8</td><td>0,2063</td><td>416,85</td><td>1,0932</td><td>0,9557</td><td>0,6076</td><td>5</td><td>825</td><td>9,4199</td></tr><tr><td>7</td><td>6</td><td>0,1952</td><td>444,65</td><td>1,2263</td><td>0,9384</td><td>0,6661</td><td>5</td><td>840</td><td>7,0822</td></tr></tbody></table></div></div>
+  <div class="footer">C7 LAB · Módulo 08/12 · versão 8.0.0</div>
+</div>
+</body>
+</html>

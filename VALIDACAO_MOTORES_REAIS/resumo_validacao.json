@@ -1,0 +1,9 @@
+{
+  "gerado_em": "2026-07-29T14:29:58.153141",
+  "pasta_analisada": "C:\\Nas100_dashboard",
+  "arquivos_candidatos": 129,
+  "candidatos_originais": 45,
+  "arquivos_com_fingerprint_repetido": 12,
+  "erros_leitura": 0,
+  "observacao": "A classificação é preliminar. O vínculo definitivo entre motor e CSV deve ser confirmado pelo comando do processo Python e pelas linhas do código que gravam o arquivo."
+}

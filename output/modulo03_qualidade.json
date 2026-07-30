@@ -1,0 +1,12 @@
+{
+  "parquet_valido": true,
+  "linhas_gravadas": 921,
+  "linhas_relidas": 921,
+  "cenarios_executados": 3,
+  "entradas_sem_saida": 0,
+  "motivos_saida": {
+    "SL": 427,
+    "TP": 306,
+    "PROTECAO": 188
+  }
+}

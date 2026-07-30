@@ -1,0 +1,10 @@
+{
+  "parquet_padroes_valido": true,
+  "parquet_enriquecido_valido": true,
+  "linhas_padroes": 1970,
+  "linhas_enriquecidas": 3070,
+  "padroes_com_pf_maior_1": 1070,
+  "padroes_com_resultado_positivo": 1070,
+  "padroes_com_lift_wr_positivo": 996,
+  "duracao_execucao_segundos": 5.898912200005725
+}

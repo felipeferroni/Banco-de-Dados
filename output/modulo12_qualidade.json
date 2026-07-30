@@ -1,0 +1,7 @@
+{
+  "validation_file_exists": true,
+  "approved_file_exists": true,
+  "operational_export_consistent": true,
+  "no_rejected_candidate_exported": true,
+  "ranking_rows": 10
+}

@@ -1,0 +1,9 @@
+{
+  "parquet_valido": true,
+  "linhas_gravadas": 300,
+  "linhas_relidas": 300,
+  "cenarios_com_minimo_trades_validacao": 300,
+  "cenarios_pf_validacao_maior_1": 137,
+  "cenarios_resultado_validacao_positivo": 137,
+  "duracao_execucao_segundos": 19.153547100024298
+}

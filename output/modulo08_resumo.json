@@ -1,0 +1,37 @@
+{
+  "modulo": 8,
+  "versao": "8.0.0",
+  "gerado_em": "2026-07-23T19:03:48",
+  "candidatos_total": 15,
+  "candidatos_elegiveis": 5,
+  "melhor_candidato": {
+    "candidate_id": "S191_C0",
+    "scenario_id": 191,
+    "cluster_id": 0,
+    "ranking_score": 59.755544667883825,
+    "val_profit_factor": 1.416015625,
+    "val_net_mt5_points": 21300.0,
+    "cluster_profit_factor": 1.0915071770334928,
+    "cluster_net_mt5_points": 15300.0,
+    "eligible_preliminary": true
+  },
+  "arquivos": {
+    "html": "C:\\Nas100_dashboard\\C7_LAB\\output\\relatorio_modulo08.html",
+    "resumo_csv": "C:\\Nas100_dashboard\\C7_LAB\\output\\relatorio_modulo08_resumo.csv",
+    "top_candidatos_csv": "C:\\Nas100_dashboard\\C7_LAB\\output\\relatorio_modulo08_top_candidatos.csv",
+    "top_padroes_csv": "C:\\Nas100_dashboard\\C7_LAB\\output\\relatorio_modulo08_top_padroes.csv",
+    "clusters_csv": "C:\\Nas100_dashboard\\C7_LAB\\output\\relatorio_modulo08_clusters.csv"
+  },
+  "configuracao": {
+    "raiz": ".",
+    "top_candidatos": 20,
+    "top_cenarios": 15,
+    "top_padroes": 30,
+    "top_clusters": 10,
+    "incluir_apenas_elegiveis_na_secao_principal": false,
+    "titulo_relatorio": "C7 LAB - Relatório Consolidado",
+    "subtitulo_relatorio": "Módulos 04 a 07",
+    "casas_decimais": 4
+  },
+  "log": "C:\\Nas100_dashboard\\C7_LAB\\logs\\modulo08_20260723_190348.log"
+}

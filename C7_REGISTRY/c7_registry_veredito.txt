@@ -1,0 +1,12 @@
+C7 REGISTRY v1 — VEREDITO
+============================================================
+Gerado em: 2026-07-29T15:02:33
+Motores cadastrados: 3
+Motores elegíveis para o LAB: 2
+Elegíveis: motor_operacional_c7_v3_1, motor_c7_dna_fluxo_v5_2
+Inválidos: nenhum
+
+IMPORTANTE:
+- O registry não altera nem reinicia qualquer motor.
+- O 13A permanece fora da população até seu CSV original ser confirmado.
+- O próximo LAB deve ler apenas politica_lab.motores_elegiveis.

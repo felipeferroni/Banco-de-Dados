@@ -1,0 +1,111 @@
+{
+  "modulo": 10,
+  "versao": "10.1.0",
+  "gerado_em": "2026-07-24T13:09:28",
+  "sementes_analisadas": 5,
+  "variantes_testadas": 2500,
+  "variantes_elegiveis_modulo11": 0,
+  "candidatos_selecionados_modulo11": 10,
+  "corte_treino_validacao": "2026-07-21 11:10:35.540000",
+  "melhor_otimizado": {
+    "optimization_variant_id": "S192_C0_TP3000_SL2500_T300_P1_G60",
+    "seed_candidate_id": "S192_C0",
+    "tp_mt5": 3000,
+    "sl_mt5": 2500,
+    "timeout_minutos": 300,
+    "protecao_ativa": true,
+    "protecao_gatilho_pct_tp": 0.6,
+    "optimization_score": 34.04517003401112,
+    "all_profit_factor": 0.8287138327619894,
+    "all_net_mt5_points": -3660.0,
+    "val_profit_factor": 0.9029303018597208,
+    "val_net_mt5_points": -439.75,
+    "eligible_module11": false
+  },
+  "arquivos": {
+    "otimizacao": "C:\\Nas100_dashboard\\C7_LAB\\database\\otimizacao_modulo10.parquet",
+    "melhores_por_semente": "C:\\Nas100_dashboard\\C7_LAB\\database\\melhores_otimizados_modulo10.parquet",
+    "candidatos_modulo11": "C:\\Nas100_dashboard\\C7_LAB\\database\\candidatos_modulo11.parquet"
+  },
+  "configuracao": {
+    "raiz": "C:/Nas100_dashboard/C7_LAB",
+    "tp_valores": [
+      3000,
+      3500,
+      4000,
+      4500,
+      5000,
+      5500,
+      6000,
+      6500,
+      7000
+    ],
+    "sl_valores": [
+      2500,
+      3000,
+      3500,
+      4000,
+      4500,
+      5000
+    ],
+    "timeout_valores": [
+      120,
+      180,
+      240,
+      300,
+      360
+    ],
+    "exigir_tp_maior_sl": true,
+    "sl_minimo_estrutural": 2500,
+    "sl_maximo_estrutural": 5000,
+    "razao_tp_sl_minima": 1.05,
+    "protecao_opcoes": [
+      false,
+      true
+    ],
+    "protecao_percentuais": [
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "timeout_minimo": 30,
+    "timeout_maximo": 360,
+    "max_variantes_por_semente": 500,
+    "max_candidatos_modulo11": 10,
+    "max_por_semente_modulo11": 3,
+    "max_por_configuracao_base": 2,
+    "fracao_treino": 0.7,
+    "minimo_trades_treino": 50,
+    "minimo_trades_validacao": 30,
+    "protecao_resultado_pontos": 0.0,
+    "peso_pf_validacao": 22.0,
+    "peso_resultado_validacao": 18.0,
+    "peso_estabilidade_pf": 16.0,
+    "peso_pf_total": 10.0,
+    "peso_resultado_total": 10.0,
+    "peso_drawdown": 10.0,
+    "peso_amostra": 8.0,
+    "peso_proximidade_semente": 6.0,
+    "pf_teto": 3.0,
+    "resultado_escala": 100000.0,
+    "drawdown_escala": 100000.0,
+    "minimo_pf_validacao": 1.0,
+    "minimo_resultado_validacao": 0.0,
+    "minimo_pf_total": 1.0,
+    "criterio_empate_intrabar": "conservador"
+  },
+  "colunas_detectadas": {
+    "entry_time": "signal_time",
+    "entry_price": "source_price",
+    "side": "side",
+    "entry_id": "entry_seq",
+    "candle_time": "datetime",
+    "open": "open",
+    "high": "high",
+    "low": "low",
+    "close": "close"
+  },
+  "log": "C:\\Nas100_dashboard\\C7_LAB\\logs\\modulo10_20260724_100300.log"
+}

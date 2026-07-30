@@ -1,0 +1,15 @@
+{
+  "module": 12,
+  "version": "12.0.0",
+  "status": "NO_GO",
+  "candidates_tested": 10,
+  "approved_received": 0,
+  "operational_candidates_exported": 0,
+  "elapsed_seconds": 0.114,
+  "config": {
+    "raiz": "C:\\Nas100_dashboard\\C7_LAB",
+    "max_exportados": 3,
+    "separar_por_lado": true,
+    "exigir_aprovacao_modulo11": true
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "modulo": 2,
+  "versao": "2.0.0",
+  "gerado_em": "2026-07-23T17:45:16",
+  "entrada": "C:\\Nas100_dashboard\\C7_LAB\\database\\estados.parquet",
+  "timeframes": {
+    "M1": {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m1.parquet",
+      "linhas": 2690,
+      "colunas": 95,
+      "inicio": "2026-07-17 17:40:00",
+      "fim": "2026-07-23 17:18:00",
+      "range_medio": 8.005204460966542,
+      "range_mediano": 6.5,
+      "corpo_abs_medio": 6.13410780669145
+    },
+    "M2": {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m2.parquet",
+      "linhas": 1571,
+      "colunas": 95,
+      "inicio": "2026-07-17 17:40:00",
+      "fim": "2026-07-23 17:18:00",
+      "range_medio": 12.574952259707192,
+      "range_mediano": 10.0,
+      "corpo_abs_medio": 8.72422024188415
+    },
+    "M3": {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m3.parquet",
+      "linhas": 1158,
+      "colunas": 95,
+      "inicio": "2026-07-17 17:39:00",
+      "fim": "2026-07-23 17:18:00",
+      "range_medio": 15.964810017271157,
+      "range_mediano": 12.875,
+      "corpo_abs_medio": 10.483592400690846
+    },
+    "M5": {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m5.parquet",
+      "linhas": 794,
+      "colunas": 95,
+      "inicio": "2026-07-17 17:40:00",
+      "fim": "2026-07-23 17:15:00",
+      "range_medio": 21.76007556675063,
+      "range_mediano": 17.625,
+      "corpo_abs_medio": 14.080289672544081
+    },
+    "M10": {
+      "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\candles_m10.parquet",
+      "linhas": 467,
+      "colunas": 95,
+      "inicio": "2026-07-17 17:40:00",
+      "fim": "2026-07-23 17:10:00",
+      "range_medio": 31.73661670235546,
+      "range_mediano": 25.5,
+      "corpo_abs_medio": 19.312098501070665
+    }
+  },
+  "campanhas": {
+    "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\campanhas.parquet",
+    "linhas": 1302,
+    "compras": 656,
+    "vendas": 646,
+    "duracao_media_segundos": 138.6635944700461,
+    "movimento_medio": 13.525345622119815,
+    "mfe_medio": 14.574884792626728,
+    "mae_medio": -2.263440860215054
+  },
+  "configuracao": {
+    "raiz": ".",
+    "arquivo_estados": "database/estados.parquet",
+    "timeframes_minutos": [
+      1,
+      2,
+      3,
+      5,
+      10
+    ],
+    "timezone": null,
+    "campanha_fonte": "auto",
+    "campanha_timeframe_base": 1,
+    "campanha_movimento_minimo": 0.0,
+    "campanha_reversao_minima": 0.0,
+    "campanha_confirmacoes": 1,
+    "campanha_gap_max_segundos": 300,
+    "campanha_ignorar_neutros": true,
+    "remover_precos_invalidos": true,
+    "preco_minimo": 1.0,
+    "salvar_csv_amostra": true,
+    "linhas_amostra": 200
+  },
+  "log": "C:\\Nas100_dashboard\\C7_LAB\\logs\\modulo02_20260723_174515.log"
+}

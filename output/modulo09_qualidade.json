@@ -1,0 +1,12 @@
+{
+  "parquet_comparacao_valido": true,
+  "parquet_pareada_valido": true,
+  "parquet_pareto_valido": true,
+  "parquet_selecionados_valido": true,
+  "candidatos_pass_basic": 5,
+  "candidatos_elegiveis_modulo07": 5,
+  "comparacoes_com_vencedor_95pct": 0,
+  "score_comparativo_min": 60.034211641647374,
+  "score_comparativo_max": 67.44277713795198,
+  "duracao_execucao_segundos": 11.048663699999452
+}

@@ -1,0 +1,11 @@
+{
+  "html_existe": true,
+  "html_tamanho_bytes": 26803,
+  "csv_resumo_existe": true,
+  "csv_top_candidatos_existe": true,
+  "csv_top_padroes_existe": true,
+  "csv_clusters_existe": true,
+  "candidatos_no_relatorio": 15,
+  "padroes_no_relatorio": 30,
+  "duracao_execucao_segundos": 0.1450046999962069
+}

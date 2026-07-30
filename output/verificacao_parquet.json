@@ -1,0 +1,42 @@
+[
+  {
+    "category": "estados",
+    "ok": true,
+    "rows_expected": 10999,
+    "rows_read": 10999,
+    "columns_expected": 94,
+    "columns_read": 94
+  },
+  {
+    "category": "mt5",
+    "ok": true,
+    "rows_expected": 218,
+    "rows_read": 218,
+    "columns_expected": 29,
+    "columns_read": 29
+  },
+  {
+    "category": "offset",
+    "ok": true,
+    "rows_expected": 1219,
+    "rows_read": 1219,
+    "columns_expected": 17,
+    "columns_read": 17
+  },
+  {
+    "category": "sinais",
+    "ok": true,
+    "rows_expected": 307,
+    "rows_read": 307,
+    "columns_expected": 90,
+    "columns_read": 90
+  },
+  {
+    "category": "trades",
+    "ok": true,
+    "rows_expected": 307,
+    "rows_read": 307,
+    "columns_expected": 90,
+    "columns_read": 90
+  }
+]

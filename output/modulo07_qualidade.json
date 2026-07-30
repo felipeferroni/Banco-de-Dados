@@ -1,0 +1,14 @@
+{
+  "parquet_ranking_valido": true,
+  "parquet_cenarios_valido": true,
+  "parquet_clusters_valido": true,
+  "candidatos_sem_grid": 0,
+  "candidatos_sem_padroes": 0,
+  "candidatos_com_pf_validacao_maior_1": 15,
+  "candidatos_cluster_pf_maior_1": 10,
+  "candidatos_resultado_validacao_positivo": 15,
+  "candidatos_cluster_resultado_positivo": 10,
+  "ranking_score_min": 29.766182634007578,
+  "ranking_score_max": 59.755544667883825,
+  "duracao_execucao_segundos": 0.37629879999440163
+}

@@ -1,0 +1,11 @@
+{
+  "parquet_otimizacao_valido": true,
+  "parquet_melhores_valido": true,
+  "parquet_modulo11_valido": true,
+  "entradas_sem_resultado": 0,
+  "variantes_pf_validacao_maior_1": 0,
+  "variantes_validacao_positiva": 0,
+  "score_min": 32.66571213136573,
+  "score_max": 34.04517003401112,
+  "duracao_execucao_segundos": 11188.376808899979
+}

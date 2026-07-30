@@ -1,0 +1,16 @@
+{
+  "parquet_clusters_valido": true,
+  "parquet_perfis_valido": true,
+  "parquet_avaliacao_valido": true,
+  "clusters_gerados": 3,
+  "contagem_por_cluster": {
+    "0": 1410,
+    "1": 110,
+    "2": 15
+  },
+  "menor_cluster": 15,
+  "maior_cluster": 1410,
+  "clusters_pf_maior_1": 2,
+  "clusters_resultado_positivo": 2,
+  "duracao_execucao_segundos": 7.652032800018787
+}
