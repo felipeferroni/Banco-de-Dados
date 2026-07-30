@@ -1,0 +1,42 @@
+C7 DNA LAB V3 — VEREDITO FINAL
+====================================================
+
+Critério para entrada imediata no motor:
+- validação fora da amostra nos dois sentidos;
+- precisão global >= 70%;
+- recall global >= 25%;
+- especificidade global >= 85%;
+- pelo menos 10 sinais emitidos no total;
+
+ALVO: MOVIMENTO_50
+Status: NAO APROVADO COMO REGRA FINAL
+Corte agregado analisado: score >= 6
+Precisão global fora da amostra: 100.00%
+Recall global fora da amostra: 60.67%
+Especificidade global: 0.00%
+Sinais emitidos: 54
+Positivos reais: 89
+
+ALVO: MEDIO_150
+Status: NAO APROVADO COMO REGRA FINAL
+Corte agregado analisado: score >= 10
+Precisão global fora da amostra: 2.27%
+Recall global fora da amostra: 50.00%
+Especificidade global: 50.57%
+Sinais emitidos: 44
+Positivos reais: 2
+
+ALVO: EXPLOSAO_250
+Status: NAO APROVADO COMO REGRA FINAL
+Corte agregado analisado: score >= 10
+Precisão global fora da amostra: 0.00%
+Recall global fora da amostra: 0.00%
+Especificidade global: 89.32%
+Sinais emitidos: 69
+Positivos reais: 0
+
+DECISAO OPERACIONAL
+====================================================
+O spread não sustentou a validação cruzada.
+Não colocar o score como condição obrigatória no motor.
+No máximo registrar o score em log para estudos futuros.
