@@ -1,0 +1,21 @@
+============================================================================
+C7 LAB 16F — VEREDITO CONGELADO V1 / 16F5 ESTATÍSTICA v1.1
+============================================================================
+Modo: TEMPORAL
+Independência: PSEUDO_OOS_COM_VAZAMENTO_POSSIVEL
+DNA avaliados: 288
+DNA_GAIN avaliados: 87
+DNA_STOP avaliados: 201
+DNA positivos validados para pesquisa: 0
+DNA negativos/bloqueadores validados para pesquisa: 0
+DNA validados para pesquisa (total): 0
+DNA aprovados para executor: 0
+Causas candidatas de STOP: 285
+Veredito: DIAGNOSTICO_PSEUDO_OOS_NAO_LIBERAR_EXECUTOR
+
+CORREÇÃO APLICADA:
+DNA_GAIN: GAIN=acerto e STOP=erro.
+DNA_STOP: STOP=acerto e GAIN=erro.
+
+IMPORTANTE: Classe A e liberação ao Executor exigem arquivo EXTERNO
+composto somente por dias que não participaram da descoberta do LAB 16E.

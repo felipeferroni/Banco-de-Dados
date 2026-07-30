@@ -1,0 +1,36 @@
+{
+  "modulo": "16C",
+  "versao": "v2_fallback_eventos",
+  "fonte_features": "VETORES_NUMERICOS_16B",
+  "historias": 2356,
+  "features_recebidas": 20,
+  "features_finais": 20,
+  "k_escolhido": 2,
+  "silhouette": 0.3487941474854587,
+  "shape_matriz_final": [
+    2356,
+    20
+  ],
+  "primeiras_features": [
+    "ajuste_estrutura__mudanca_total_z",
+    "ajuste_estrutura__inicio_meio_z",
+    "ajuste_estrutura__meio_fim_z",
+    "ajuste_estrutura__nivel_final_z",
+    "ajuste_estrutura_compra__mudanca_total_z",
+    "ajuste_estrutura_compra__inicio_meio_z",
+    "ajuste_estrutura_compra__meio_fim_z",
+    "ajuste_estrutura_compra__nivel_final_z",
+    "ajuste_estrutura_venda__mudanca_total_z",
+    "ajuste_estrutura_venda__inicio_meio_z",
+    "ajuste_estrutura_venda__meio_fim_z",
+    "ajuste_estrutura_venda__nivel_final_z",
+    "confirmacoes_candidata__mudanca_total_z",
+    "confirmacoes_candidata__inicio_meio_z",
+    "confirmacoes_candidata__meio_fim_z",
+    "confirmacoes_candidata__nivel_final_z",
+    "campanha_entradas__mudanca_total_z",
+    "campanha_entradas__inicio_meio_z",
+    "campanha_entradas__meio_fim_z",
+    "campanha_entradas__nivel_final_z"
+  ]
+}

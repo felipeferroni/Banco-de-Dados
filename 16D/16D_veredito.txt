@@ -1,0 +1,5 @@
+modulo: 16D
+clusters_analisados: 2
+dna_gain: 0
+dna_stop: 0
+veredito: ATLAS_GERADO_PARA_AUTOPSIA

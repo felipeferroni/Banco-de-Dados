@@ -1,0 +1,11 @@
+{
+  "dna_com_aparicao": 288,
+  "aparicoes_totais": 2942,
+  "stops_analisados": 2131,
+  "causas_stop_candidatas": 285,
+  "modelo_resultado": {
+    "gain_r": 1.0,
+    "stop_r": 1.0,
+    "observacao": "Métricas em unidade R. Altere apenas se cada GAIN e STOP tiverem payoff fixo diferente."
+  }
+}

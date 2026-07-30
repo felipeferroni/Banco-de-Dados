@@ -1,0 +1,16 @@
+{
+  "arquitetura": "16F_CONGELADO_V1_2026-07-29",
+  "catalogo": "C:\\Nas100_dashboard\\C7_LAB\\RELATORIOS_16\\16E\\16E_catalogo_dna_compacto.csv",
+  "eventos": "C:\\Nas100_dashboard\\C7_LAB\\RELATORIOS_16\\16B\\16B_eventos_por_trade.csv",
+  "sha256_catalogo": "5cf881048a556f9f7c2ea9f3c827f4bdd493eb512ceb384e089780027c5b30e7",
+  "sha256_eventos": "70403cf3324f0987f9ccd9eb5604cbb35a7bae3dd37fe6424b13471a34dd683d",
+  "historias_arquivo_total": 2154,
+  "historias_validacao": 1081,
+  "dna_catalogados": 289,
+  "dna_encontrados": 288,
+  "aparicoes": 2942,
+  "modo": "TEMPORAL",
+  "data_corte": "2026-07-26 00:00:00",
+  "status_independencia": "PSEUDO_OOS_COM_VAZAMENTO_POSSIVEL",
+  "observacao": "O catálogo 16E original pode ter visto estes dias. Resultados servem para diagnóstico, não para certificação operacional."
+}

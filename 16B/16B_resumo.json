@@ -1,0 +1,10 @@
+{
+  "modulo": "16B",
+  "versao": "v3_selecao_por_motor",
+  "historias": 2356,
+  "motores": 2,
+  "features_vetoriais": 30,
+  "eventos": 13378,
+  "sequencias": 2154,
+  "causa_raiz_corrigida": "features agora são selecionadas dentro de cada motor, evitando perda por cobertura global da base unificada"
+}

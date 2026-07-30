@@ -1,0 +1,19 @@
+{
+  "modulo": "16E",
+  "versao": "v1_sequential_dna_contiguo",
+  "entrada": "C:\\Nas100_dashboard\\C7_LAB\\RELATORIOS_16\\16B\\16B_eventos_por_trade.csv",
+  "historias_analisadas": 2154,
+  "gains": 874,
+  "stops": 1280,
+  "motores": 2,
+  "min_tamanho": 2,
+  "max_tamanho": 6,
+  "min_ocorrencias": 10,
+  "min_suporte_pct": 0.4,
+  "padroes_retidos": 3071,
+  "dna_gain": 137,
+  "dna_stop": 200,
+  "padroes_neutros": 2571,
+  "catalogo_compacto": 289,
+  "observacao": "Os resultados são descoberta dentro da mesma amostra. Antes de uso operacional, validar em dias fora da amostra."
+}

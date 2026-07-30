@@ -1,0 +1,21 @@
+{
+  "arquitetura": "16F_CONGELADO_V1_2026-07-29",
+  "modulo": "16F5",
+  "versao": "v1.1_estatistica_orientada_classe",
+  "modo_validacao": "TEMPORAL",
+  "status_independencia": "PSEUDO_OOS_COM_VAZAMENTO_POSSIVEL",
+  "dna_avaliados": 288,
+  "classes": {
+    "D_REJEITADO": 270,
+    "C_OBSERVACAO": 18
+  },
+  "dna_gain_avaliados": 87,
+  "dna_stop_avaliados": 201,
+  "dna_gain_validados_pesquisa": 0,
+  "dna_stop_validados_pesquisa": 0,
+  "dna_validados_pesquisa_total": 0,
+  "dna_aprovados_executor": 0,
+  "causas_stop_catalogadas": 285,
+  "veredito": "DIAGNOSTICO_PSEUDO_OOS_NAO_LIBERAR_EXECUTOR",
+  "observacao": "DNA_STOP foi tratado como classificador/bloqueador: STOP é acerto e GAIN é erro. A arquitetura e os limites congelados foram preservados."
+}

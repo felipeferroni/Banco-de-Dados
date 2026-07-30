@@ -1,0 +1,10 @@
+﻿escopo,motor_id,lado_norm,historias,gains,stops,taxa_gain_base_pct,padroes_retidos
+GLOBAL,,,2154,874,1280,40.575673,696
+MOTOR,motor_c7_dna_fluxo_v5_2,,1284,537,747,41.82243,460
+MOTOR,motor_operacional_c7_v3_1,,870,337,533,38.735632,333
+LADO,,COMPRA,1031,404,627,39.185257,362
+LADO,,VENDA,1123,470,653,41.852182,410
+MOTOR_LADO,motor_c7_dna_fluxo_v5_2,COMPRA,612,244,368,39.869281,220
+MOTOR_LADO,motor_c7_dna_fluxo_v5_2,VENDA,672,293,379,43.60119,257
+MOTOR_LADO,motor_operacional_c7_v3_1,COMPRA,419,160,259,38.186158,155
+MOTOR_LADO,motor_operacional_c7_v3_1,VENDA,451,177,274,39.24612,178
