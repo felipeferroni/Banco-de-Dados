@@ -1,0 +1,65 @@
+{
+  "architecture_frozen": true,
+  "candidate_families": 6,
+  "candidate_genes": 250,
+  "candidate_pairs": 1000,
+  "candidate_triplets": 1000,
+  "configuration": {
+    "architecture_frozen": true,
+    "candidate_limits": {
+      "families": 250,
+      "genes": 250,
+      "pairs": 1000,
+      "triplets": 1000
+    },
+    "eligibility_status": "ELEGIVEL_MEDICAO",
+    "evidence": {
+      "family_min_members": 2,
+      "gene_min_histories": 8,
+      "pair_min_histories": 8,
+      "triplet_min_histories": 5
+    },
+    "laboratory": "LAB16I4",
+    "project": "C7",
+    "scientific_rule": "Limites controlam volume computacional e evidência mínima; não constituem regra operacional nem promessa de assertividade.",
+    "scope": "Seleção de candidatos científicos; sem decisão operacional",
+    "seed": 160104,
+    "version": "1.0.0",
+    "weights": {
+      "evidence": 0.1,
+      "information": 0.2,
+      "network": 0.05,
+      "quality": 0.3,
+      "robustness": 0.2,
+      "significance": 0.15
+    }
+  },
+  "elapsed_seconds": 11.104,
+  "genes_eligible": 852,
+  "inputs_sha256": {
+    "gene_antagonisms.csv": "964c9482418c220d57ee05afa17dabceaa698183769d19873c328a35f013883e",
+    "gene_dependencies.csv": "e066d765489be7bcd9d9970c700bde380e39ef06e6762f0668a6e8567741ebae",
+    "gene_dictionary_enriched.csv": "e59c8403fc992a37bf7d1648d5480a2060da39b313f4689a2fcc0dfcc22a514e",
+    "gene_families.csv": "9026ce67392fa7075692c80f6755810f1f11690ffa527efcb648ff2d210269c9",
+    "gene_pairs.csv": "31f8117dab9957d4e6f55a47ba10359ce7d480aa8400bd986da938d8807f1570",
+    "gene_statistics.csv": "f1310df64b8abd09c8e1144008aed98be25cd22646eff5507f3523fc28f10b2c",
+    "gene_triplets.csv": "6b3353e88adea5890227e3aa06a8b691a51285fc70092181e4241668cc77300c",
+    "manifesto_lab16i3.json": "916ee0825589406ee46d7295b33b5add4d0a1549cb47dac99f4c687d9264b1db"
+  },
+  "laboratory": "LAB16I4",
+  "outputs_sha256": {
+    "candidate_dictionary.csv": "9ff44e2e5d7b44374eb703408636e35d1027421106f39248649f6572fda58811",
+    "candidate_families.csv": "748cc134b34f79106f3bfe842d43e9f52b348b229ae7cbfe318401242f40aeed",
+    "candidate_genes.csv": "cbe9ab0aaf15e2ae354bd58b7a3a679c94845fe9213c6b7260cc3b9ca7affb9d",
+    "candidate_network.sqlite": "0c502a62617909ee7c6e5f5243e3985727e41b50b33069faddd75cc1772314e8",
+    "candidate_pairs.csv": "e4d0c9085532cd3c196caea092fb69663a422b483f16a54b551264ba70944a59",
+    "candidate_triplets.csv": "66178e9a3783838c77e867d6b6abac82795bd06c69668821a5709d74a2d2c1c5"
+  },
+  "project": "C7",
+  "scientific_hypothesis": "Existe subconjunto reduzido com evidência composta superior, sem implicar validade operacional.",
+  "scientific_note": "Ranking relativo para priorização experimental. Não elimina genes, não gera entradas e não estima desempenho futuro fora da amostra.",
+  "scope": "Seleção de candidatos científicos; sem decisão operacional",
+  "selection_is_operational": false,
+  "status": "EXECUTADO",
+  "version": "1.0.0"
+}

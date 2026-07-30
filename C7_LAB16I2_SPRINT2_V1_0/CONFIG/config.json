@@ -1,0 +1,58 @@
+{
+  "projeto": "C7",
+  "modulo": "LAB16I2",
+  "versao": "16I2_v1.0.0",
+  "arquitetura_congelada": true,
+  "unidade_analise": "historia",
+  "classe_positiva": "GAIN",
+  "classe_negativa": "STOP",
+  "separador_listas": "|",
+  "seed": 1602,
+  "bootstrap_repeticoes": 1000,
+  "credibilidade": 0.95,
+  "prior_beta": {
+    "alpha": 1.0,
+    "beta": 1.0
+  },
+  "arquivos": {
+    "genes_historia": "genes_historia.csv",
+    "dicionario": "dicionario_genes.csv",
+    "genes_dna": "genes_dna.csv",
+    "genes_estatisticas_i1": "genes_estatisticas.csv",
+    "resumo_i1": "resumo_execucao.json",
+    "rotulos_historia": "rotulos_historia.csv"
+  },
+  "leakage": {
+    "prefixos_proibidos": [
+      "META::"
+    ],
+    "termos_proibidos": [
+      "GAIN",
+      "STOP",
+      "ROTULO",
+      "WINRATE",
+      "PRECISAO",
+      "ACERTOS",
+      "ERRO",
+      "FALSOS_POSITIVOS",
+      "FALSOS_NEGATIVOS",
+      "VERDADEIROS_POSITIVOS",
+      "VERDADEIROS_NEGATIVOS",
+      "RECALL",
+      "ESPECIFICIDADE",
+      "F1_SCORE",
+      "MCC",
+      "ACURACIA",
+      "PREVALENCIA_CLASSE_ALVO",
+      "LIFT_CLASSE_ALVO",
+      "WILSON",
+      "PROFIT_FACTOR",
+      "EXPECTANCIA",
+      "SCORE_CERTIFICACAO",
+      "TAXA_ACERTO_CLASSE_ALVO",
+      "TAXA_ERRO_CLASSE_ALVO",
+      "HISTORIAS_CLASSE_ALVO"
+    ]
+  },
+  "saida_dir": "RELATORIOS"
+}

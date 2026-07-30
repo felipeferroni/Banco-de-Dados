@@ -1,0 +1,39 @@
+{
+  "project": "C7",
+  "laboratory": "LAB16I5",
+  "version": "1.0.0",
+  "architecture_frozen": true,
+  "seed": 160105,
+  "scope": "Reconstrução científica de assinaturas de DNA a partir de candidatos do LAB16I4; sem decisão operacional",
+  "inputs": [
+    "candidate_genes.csv",
+    "candidate_pairs.csv",
+    "candidate_triplets.csv",
+    "candidate_families.csv",
+    "candidate_dictionary.csv",
+    "candidate_network.sqlite",
+    "selection_manifest.json"
+  ],
+  "reconstruction": {
+    "include_pairs": true,
+    "include_triplets": true,
+    "minimum_gene_candidates_present": 1,
+    "score_weights": {
+      "interaction_score": 0.5,
+      "component_gene_score": 0.25,
+      "coherence": 0.15,
+      "parsimony": 0.1
+    },
+    "role_thresholds": {
+      "obrigatorio_min_presence": 1.0,
+      "nucleo_min_relative_score": 0.8
+    },
+    "evidence_bands": {
+      "MUITO_ALTA": 80,
+      "ALTA": 70,
+      "MODERADA": 55,
+      "BAIXA": 0
+    }
+  },
+  "scientific_rule": "Reconstrução representa estruturas candidatas explicáveis; não é setup, sinal ou estimativa fora da amostra."
+}

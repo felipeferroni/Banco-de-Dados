@@ -1,0 +1,77 @@
+{
+  "architecture_frozen": true,
+  "configuration": {
+    "architecture_frozen": true,
+    "inputs": [
+      "candidate_genes.csv",
+      "candidate_pairs.csv",
+      "candidate_triplets.csv",
+      "candidate_families.csv",
+      "candidate_dictionary.csv",
+      "candidate_network.sqlite",
+      "selection_manifest.json"
+    ],
+    "laboratory": "LAB16I5",
+    "project": "C7",
+    "reconstruction": {
+      "evidence_bands": {
+        "ALTA": 70,
+        "BAIXA": 0,
+        "MODERADA": 55,
+        "MUITO_ALTA": 80
+      },
+      "include_pairs": true,
+      "include_triplets": true,
+      "minimum_gene_candidates_present": 1,
+      "role_thresholds": {
+        "nucleo_min_relative_score": 0.8,
+        "obrigatorio_min_presence": 1.0
+      },
+      "score_weights": {
+        "coherence": 0.15,
+        "component_gene_score": 0.25,
+        "interaction_score": 0.5,
+        "parsimony": 0.1
+      }
+    },
+    "scientific_rule": "Reconstrução representa estruturas candidatas explicáveis; não é setup, sinal ou estimativa fora da amostra.",
+    "scope": "Reconstrução científica de assinaturas de DNA a partir de candidatos do LAB16I4; sem decisão operacional",
+    "seed": 160105,
+    "version": "1.0.0"
+  },
+  "counts": {
+    "candidate_genes_input": 250,
+    "candidate_pairs_input": 1000,
+    "candidate_triplets_input": 1000,
+    "components": 5000,
+    "family_profiles": 8,
+    "genes_with_roles": 162,
+    "reconstructed_dna": 2000
+  },
+  "elapsed_seconds": 0.912,
+  "inputs_sha256": {
+    "candidate_dictionary.csv": "9ff44e2e5d7b44374eb703408636e35d1027421106f39248649f6572fda58811",
+    "candidate_families.csv": "748cc134b34f79106f3bfe842d43e9f52b348b229ae7cbfe318401242f40aeed",
+    "candidate_genes.csv": "cbe9ab0aaf15e2ae354bd58b7a3a679c94845fe9213c6b7260cc3b9ca7affb9d",
+    "candidate_network.sqlite": "0c502a62617909ee7c6e5f5243e3985727e41b50b33069faddd75cc1772314e8",
+    "candidate_pairs.csv": "e4d0c9085532cd3c196caea092fb69663a422b483f16a54b551264ba70944a59",
+    "candidate_triplets.csv": "66178e9a3783838c77e867d6b6abac82795bd06c69668821a5709d74a2d2c1c5",
+    "selection_manifest.json": "4def812c05cb40a8cf90903d6ed808964d5eb451cba5faf0bc541380b24a52fd"
+  },
+  "laboratory": "LAB16I5",
+  "outputs_sha256": {
+    "dna_reconstruction.sqlite": "89c3c884c50a19ced566c610b40d0505fd9ddcab1218d3019cab7f578d1202b4",
+    "family_profiles_reconstructed.csv": "f74754d872a94c7bd225c010303555bd81c555e7ed7aa2ccf0dce344f954980b",
+    "gene_roles_reconstructed.csv": "707d55d0f7982cf73e2d0f261be0c9fa1593d4cfe91cd193fccd5e8f35d19e09",
+    "reconstructed_dna.csv": "9edfc0510b49330368e96773cff5a2dc20f1f402f82826c9c8692fb5cd5bc713",
+    "reconstructed_dna_components.csv": "d6ce3a5060aaf67fb21372a072a66ad178b95ab1ca227cdc427dadf3f580945c",
+    "reconstruction_dictionary.csv": "bedf7ca6ae61956def03ee0bb1f0839ddaec9b983cdebfc608390cf4d791086d"
+  },
+  "project": "C7",
+  "reconstruction_is_operational": false,
+  "scientific_hypothesis": "Um DNA candidato pode ser reconstruído como assinatura explicável de genes e interações selecionadas.",
+  "scientific_note": "As estruturas são reconstruções científicas relativas às entradas do LAB16I4. Não representam entradas, setups ou promessa de desempenho.",
+  "scope": "Reconstrução científica de assinaturas de DNA a partir de candidatos do LAB16I4; sem decisão operacional",
+  "status": "EXECUTADO",
+  "version": "1.0.0"
+}

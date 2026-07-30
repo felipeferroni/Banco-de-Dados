@@ -1,0 +1,44 @@
+{
+  "architecture_frozen": true,
+  "counts": {
+    "assignments": 2000,
+    "dna_input": 2000,
+    "narratives": 3,
+    "relationships": 3
+  },
+  "inputs_sha256": {
+    "dna_reconstruction.sqlite": "89c3c884c50a19ced566c610b40d0505fd9ddcab1218d3019cab7f578d1202b4",
+    "family_profiles_reconstructed.csv": "f74754d872a94c7bd225c010303555bd81c555e7ed7aa2ccf0dce344f954980b",
+    "gene_roles_reconstructed.csv": "707d55d0f7982cf73e2d0f261be0c9fa1593d4cfe91cd193fccd5e8f35d19e09",
+    "reconstructed_dna.csv": "9edfc0510b49330368e96773cff5a2dc20f1f402f82826c9c8692fb5cd5bc713",
+    "reconstructed_dna_components.csv": "d6ce3a5060aaf67fb21372a072a66ad178b95ab1ca227cdc427dadf3f580945c",
+    "reconstruction_dictionary.csv": "bedf7ca6ae61956def03ee0bb1f0839ddaec9b983cdebfc608390cf4d791086d",
+    "reconstruction_manifest.json": "6b2682552f50e7ea6670b384c9787158c632437c47c890fa6ddaecb5bca89eb5"
+  },
+  "laboratory": "LAB17",
+  "model": {
+    "algorithm": "KMeans",
+    "cluster_order": "mean_reconstruction_score_desc",
+    "seed": 170001,
+    "selected_k": 3,
+    "silhouette": 0.7287972732917397
+  },
+  "narrative_is_operational": false,
+  "outputs_sha256": {
+    "dna_narrative_assignments.csv": "bf83636937b6fad64597e26c0b808a4dcf60dacb3908453d45eb1cbcff7eac36",
+    "narrative_dictionary.csv": "6843c2588ea2e3b0ad1c3bdc7001da0865ac2ffeb88f0a7ef4d4ac2dcb24d9ad",
+    "narrative_engine.sqlite": "deff27f18f0efd908d9a4d28e0176d4a09816d363a64cbe3bbd95cb436bf9ad9",
+    "narrative_relationships.csv": "7b1b477fa5578803eb140302e6748148f8d10a786f313be003e45962823ec900",
+    "narratives.csv": "bf160c410a89f4ab5895a2c29ace231b78b0a8f3efbb9835f7892ecc56886b02",
+    "temporal_transition_readiness.csv": "35ba42f47adaa27b7809a62a4f37b789e5bdcc7c1a11702b187a1f5dfde12c92"
+  },
+  "project": "C7",
+  "scientific_hypothesis": "DNAs reconstruídos se organizam em estados latentes recorrentes que podem ser descritos como narrativas emergentes.",
+  "scope": "Descoberta científica de estados narrativos latentes; sem decisão operacional",
+  "status": "EXECUTADO",
+  "temporal_inference": {
+    "performed": false,
+    "reason": "ausencia_de_eixo_temporal_nas_entradas_oficiais"
+  },
+  "version": "1.0.0"
+}

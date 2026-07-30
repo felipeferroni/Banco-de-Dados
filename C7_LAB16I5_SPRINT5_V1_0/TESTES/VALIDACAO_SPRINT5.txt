@@ -1,0 +1,17 @@
+# VALIDAÇÃO SPRINT 5 — LAB16I5 v1.0
+
+Status técnico: APROVADO PARA VALIDAÇÃO EXTERNA
+
+- Teste sintético: APROVADO
+- Teste de determinismo dos CSVs: APROVADO
+- IDs de DNA reconstruído únicos: APROVADO
+- Integridade componentes ↔ DNA: APROVADO
+- Consistência CSV ↔ SQLite: APROVADO
+- Arquitetura congelada: SIM
+- Decisão operacional: NÃO
+
+Contagens na base oficial:
+- DNAs reconstruídos: 2000
+- Componentes: 5000
+- Genes com papéis reconstruídos: 162
+- Perfis de família: 8

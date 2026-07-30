@@ -1,0 +1,2 @@
+﻿temporal_transitions_inferred,reason,required_future_input,classification
+False,Entradas LAB16I5 nao contem eixo temporal por historia; transicoes temporais nao foram fabricadas.,sequencia cronologica de narrativas por trade/data_hora,LIMITACAO_CIENTIFICA_DOCUMENTADA

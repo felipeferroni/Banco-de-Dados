@@ -1,0 +1,14 @@
+{
+  "project": "C7",
+  "laboratory": "LAB17",
+  "version": "1.0.0",
+  "architecture_frozen": true,
+  "seed": 170001,
+  "cluster_search": {"min_k": 3, "max_k": 12, "minimum_cluster_size": 20},
+  "features": {
+    "numeric": ["component_count", "distinct_families", "historias", "taxa_gain_pct", "lift_gain", "fisher_p", "bootstrap_ic_inferior_pct", "interaction_score_0_100", "component_score_mean_0_100", "coherence_score_0_100", "parsimony_score_0_100", "reconstruction_score_0_100"],
+    "categorical": ["source_type", "evidence_band", "families"]
+  },
+  "scientific_rule": "Narrativas são estados latentes emergentes dos DNAs reconstruídos; não são setups, sinais ou decisões operacionais.",
+  "governance": {"bug": "correcao_obrigatoria", "scientific_error": "versao_1_1", "improvement": "backlog"}
+}
