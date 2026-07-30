@@ -1,0 +1,27 @@
+ANALISADOR DE INVALIDAÇÃO DA TESE V1
+
+Arquivo analisado: C:\Nas100_dashboard\telemetria_posicoes_operacional_v3_1_v5_2.csv
+Snapshots: 3150
+Trades encerrados: 61
+Treino: 42
+Validação: 19
+Regras testadas: 2048
+Status reais: {'GAIN': 25, 'LOSS': 17, 'PROTEGIDO': 15, 'TIMEOUT': 4}
+
+MELHOR REGRA CANDIDATA
+ID: 516
+score_lado_max: 30
+score_oposto_min: 70
+perda_minima: 300
+persistencia_s: 2
+mfe_maximo: None
+modo_fluxo: DELTA_E_SALDO_CONTRARIOS
+exigir_rompimento_contrario: True
+
+Impacto treino: 7250.0
+Impacto validação: 975.0
+Gains prejudicados validação: 0
+
+IMPORTANTE:
+Este resultado é exploratório e deve ser validado prospectivamente
+em sombra antes de qualquer fechamento real.

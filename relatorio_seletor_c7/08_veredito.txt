@@ -1,0 +1,10 @@
+RELATORIO SELETOR C7
+============================================================
+Trades simulados disponíveis: 1
+Trades cruzados como executados no EA: 1
+TP/SL considerados: 1600/2900
+Gain rate mínimo de equilíbrio: 64.44%
+
+CANDIDATOS PARA 2 A 4 OPERACOES/DIA
+============================================================
+Nenhuma combinação atingiu amostra mínima, frequência, expectativa positiva e gain rate de equilíbrio.

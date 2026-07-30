@@ -1,0 +1,12 @@
+REPLAY STATEFUL V1
+
+Arquivo: C:\Nas100_dashboard\estados_c7_dna_fluxo_v5_2.csv
+Linhas: 7212
+Combinações: 600
+
+MELHOR CENÁRIO
+TODAS_TP2000_SL1200_P0.6
+Resultado: 101350.00
+
+OBSERVAÇÃO IMPORTANTE:
+Este replay respeita uma posição por vez e descarta sinais acavalados. Ele usa os estados já calculados pelo motor. Portanto, não recalcula do zero a campanha contrafactual. É adequado para triagem de TP/SL/proteção/filtro estrutural, mas a decisão final deve ser confirmada em replay completo sobre o quantower_export_full.csv.

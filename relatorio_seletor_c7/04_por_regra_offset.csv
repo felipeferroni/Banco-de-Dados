@@ -1,0 +1,2 @@
+﻿regra;lado;offset_faixa;operacoes;dias;operacoes_dia;gains;losses;protegidos;gain_rate_decisivos;taxa_sem_loss;resultado_total_pts;media_pts;profit_factor;dias_positivos_pct;mfe_medio;mae_medio;offset_medio;break_even_gain_rate;margem_sobre_break_even;candidato_2a4_dia
+VENDA_FORTE_1500_spread_askbaixo;VENDA;-199,99 a -190;1,0;1,0;1,0;0,0;0,0;1,0;0,0;1,0;0,0;0,0;0,0;0,0;1100,0;-400,0;-197,72;0,6444444444444445;-0,6444444444444445;False
