@@ -1,0 +1,10 @@
+﻿nivel;tema;descoberta;acao_sugerida
+RELEVANTE;Amostra;Amostra com 307 trades fechados.;"Não alterar o motor durante a coleta; validar qualquer filtro em dias separados."
+GLOBAL;Desempenho;PF INFINITO, expectância 1120.00, resultado 343840.00 pontos.;Verificar quais grupos sustentam o lucro e quais concentram perdas.
+PADRAO;Lado;Melhor: COMPRA | 169 trades | exp. 1120.00 | total 189280.00.;Validar fora da amostra antes de transformar em regra.
+PADRAO;Horário;Melhor: 11:00 | 27 trades | exp. 1120.00 | total 30240.00.;Validar fora da amostra antes de transformar em regra.
+PADRAO;Estrutura;Melhor: ALTA | 161 trades | exp. 1120.00 | total 180320.00.;Validar fora da amostra antes de transformar em regra.
+PADRAO;Campanha;Melhor: NOVA_CAMPANHA | 273 trades | exp. 1120.00 | total 305760.00.;Validar fora da amostra antes de transformar em regra.
+PADRAO;Motivo de entrada;Melhor: NOVA_CAMPANHA | 273 trades | exp. 1120.00 | total 305760.00.;Validar fora da amostra antes de transformar em regra.
+PADRAO;Spread;Melhor: FORTE | 208 trades | exp. 1120.00 | total 232960.00.;Validar fora da amostra antes de transformar em regra.
+FUNIL;Eventos;307 sinais, 10321 bloqueios e 128 invalidações registrados.;Usar os resumos para descobrir os motivos mais frequentes.

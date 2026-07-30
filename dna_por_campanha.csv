@@ -1,0 +1,4 @@
+﻿campanha;trades;positivos;negativos;zeros;win_rate_pct;resultado_total;expectancia;profit_factor;drawdown_intragrupo
+NOVA_CAMPANHA;273;273;0;0;100,0;305760,0;1120,0;inf;0,0
+MUDANCA_ESTRUTURAL_DE_CAMPANHA;18;18;0;0;100,0;20160,0;1120,0;inf;0,0
+REENTRADA_APOS_PULLBACK_E_ROMPIMENTO;16;16;0;0;100,0;17920,0;1120,0;inf;0,0

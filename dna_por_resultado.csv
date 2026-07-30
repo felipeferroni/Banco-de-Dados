@@ -1,0 +1,5 @@
+﻿resultado;trades;positivos;negativos;zeros;win_rate_pct;resultado_total;expectancia;profit_factor;drawdown_intragrupo
+GAIN;160;160;0;0;100,0;179200,0;1120,0;inf;0,0
+LOSS;99;99;0;0;100,0;110880,0;1120,0;inf;0,0
+PROTEGIDO;34;34;0;0;100,0;38080,0;1120,0;inf;0,0
+TIMEOUT;14;14;0;0;100,0;15680,0;1120,0;inf;0,0

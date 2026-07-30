@@ -1,0 +1,7 @@
+﻿estrutura_faixa,favor_30s_count,favor_30s_mean,favor_30s_median,favor_30s_std,favor_30s_min,favor_30s_max,favor_60s_count,favor_60s_mean,favor_60s_median,favor_60s_std,favor_60s_min,favor_60s_max,favor_120s_count,favor_120s_mean,favor_120s_median,favor_120s_std,favor_120s_min,favor_120s_max,sucesso250_30s_count,sucesso250_30s_mean,sucesso250_30s_median,sucesso250_30s_std,sucesso250_30s_min,sucesso250_30s_max,sucesso250_60s_count,sucesso250_60s_mean,sucesso250_60s_median,sucesso250_60s_std,sucesso250_60s_min,sucesso250_60s_max,sucesso250_120s_count,sucesso250_120s_mean,sucesso250_120s_median,sucesso250_120s_std,sucesso250_120s_min,sucesso250_120s_max
+<=4,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,
+4-8,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,
+8-12,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,
+12-16,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,
+>16,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,,0,,,,,
+,26136,309.62561218243036,125.0,478.13054906391704,-0.0,7950.0,26136,507.4485384144475,275.0,691.8438466873333,-0.0,10750.0,26136,790.1390801958984,475.0,1018.7373451664095,0.0,11975.0,26136,0.3925619834710744,0.0,0.48833000794065473,0.0,1.0,26136,0.5365779002142639,1.0,0.49866980231297414,0.0,1.0,26136,0.6529690847872666,1.0,0.4760347986043885,0.0,1.0
