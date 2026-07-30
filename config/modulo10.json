@@ -1,0 +1,12 @@
+{
+  "raiz": "C:/Nas100_dashboard/C7_LAB",
+  "tp_valores": [3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000],
+  "sl_valores": [2500, 3000, 3500, 4000, 4500, 5000],
+  "timeout_valores": [120, 180, 240, 300, 360],
+  "exigir_tp_maior_sl": true,
+  "sl_minimo_estrutural": 2500,
+  "sl_maximo_estrutural": 5000,
+  "razao_tp_sl_minima": 1.05,
+  "max_variantes_por_semente": 500,
+  "max_candidatos_modulo11": 10
+}

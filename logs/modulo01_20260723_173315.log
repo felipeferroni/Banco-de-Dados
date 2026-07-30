@@ -1,0 +1,15 @@
+2026-07-23 17:33:15,576 | INFO | C7_LAB_01_IMPORTADOR v1.0.0 iniciado
+2026-07-23 17:33:15,577 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-23 17:33:15,578 | INFO | Entrada: C:\Nas100_dashboard\C7_LAB\input
+2026-07-23 17:33:15,581 | INFO | Arquivos reconhecidos: 5
+2026-07-23 17:33:15,582 | INFO | [1/5] estados_c7_dna_fluxo_v5_2.csv -> estados
+2026-07-23 17:33:24,951 | INFO | [2/5] historico_execucao_mt5.csv -> mt5
+2026-07-23 17:33:25,169 | INFO | [3/5] log_offset_execucao_mt5.csv -> offset
+2026-07-23 17:33:25,415 | INFO | [4/5] sinais_c7_dna_fluxo_v5_2.csv -> sinais
+2026-07-23 17:33:26,155 | INFO | [5/5] trades_c7_dna_fluxo_v5_2.csv -> trades
+2026-07-23 17:33:27,256 | INFO | estados: 11117 -> 10999 linhas; 118 duplicatas removidas; 94 colunas
+2026-07-23 17:33:27,293 | INFO | mt5: 218 -> 218 linhas; 0 duplicatas removidas; 29 colunas
+2026-07-23 17:33:27,338 | INFO | offset: 1582 -> 1219 linhas; 363 duplicatas removidas; 17 colunas
+2026-07-23 17:33:27,409 | INFO | sinais: 307 -> 307 linhas; 0 duplicatas removidas; 90 colunas
+2026-07-23 17:33:27,481 | INFO | trades: 307 -> 307 linhas; 0 duplicatas removidas; 90 colunas
+2026-07-23 17:33:27,710 | INFO | Módulo 01 concluído com sucesso.

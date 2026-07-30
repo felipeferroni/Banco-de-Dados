@@ -1,0 +1,23 @@
+{
+  "raiz": ".",
+  "arquivo_estados": "database/estados.parquet",
+  "timeframes_minutos": [
+    1,
+    2,
+    3,
+    5,
+    10
+  ],
+  "timezone": null,
+  "campanha_fonte": "auto",
+  "campanha_timeframe_base": 1,
+  "campanha_movimento_minimo": 0.0,
+  "campanha_reversao_minima": 0.0,
+  "campanha_confirmacoes": 1,
+  "campanha_gap_max_segundos": 300,
+  "campanha_ignorar_neutros": true,
+  "remover_precos_invalidos": true,
+  "preco_minimo": 1.0,
+  "salvar_csv_amostra": true,
+  "linhas_amostra": 200
+}

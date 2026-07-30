@@ -1,0 +1,14 @@
+2026-07-23 18:02:14,305 | INFO | ==============================================================================
+2026-07-23 18:02:14,306 | INFO | C7 LAB - MÓDULO 03/12 - SIMULADOR - versão 3.0.0
+2026-07-23 18:02:14,306 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-23 18:02:14,307 | INFO | ==============================================================================
+2026-07-23 18:02:14,432 | INFO | Candles M1 carregados: 2690
+2026-07-23 18:02:14,462 | INFO | Fonte de entradas selecionada automaticamente: sinais (307 linhas)
+2026-07-23 18:02:14,486 | INFO | Entradas válidas formadas: 307
+2026-07-23 18:02:14,495 | INFO | Simulando BASE_TP2000_SL1200_P60 | TP=2000 | SL=1200 | proteção=True | gatilho=60% | timeout=180
+2026-07-23 18:02:15,776 | INFO | BASE_TP2000_SL1200_P60 concluído: trades=307 | PF=0.8187 | líquido=-37200.00 | winrate=27.36%
+2026-07-23 18:02:15,776 | INFO | Simulando REFERENCIA_TP1500_SL2500_P70 | TP=1500 | SL=2500 | proteção=True | gatilho=70% | timeout=180
+2026-07-23 18:02:17,242 | INFO | REFERENCIA_TP1500_SL2500_P70 concluído: trades=307 | PF=0.7065 | líquido=-78500.00 | winrate=41.04%
+2026-07-23 18:02:17,243 | INFO | Simulando REFERENCIA_TP1500_SL1500_P70 | TP=1500 | SL=1500 | proteção=True | gatilho=70% | timeout=180
+2026-07-23 18:02:18,497 | INFO | REFERENCIA_TP1500_SL1500_P70 concluído: trades=307 | PF=0.6443 | líquido=-79500.00 | winrate=31.27%
+2026-07-23 18:02:18,571 | INFO | Módulo 03 concluído com sucesso.

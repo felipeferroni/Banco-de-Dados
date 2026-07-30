@@ -1,0 +1,12 @@
+2026-07-23 18:51:40,267 | INFO | ==============================================================================
+2026-07-23 18:51:40,267 | INFO | C7 LAB - MÓDULO 07/12 - RANKING CONSOLIDADO - versão 7.0.0
+2026-07-23 18:51:40,269 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-23 18:51:40,270 | INFO | ==============================================================================
+2026-07-23 18:51:40,405 | INFO | Grid Search: 300 cenários
+2026-07-23 18:51:40,405 | INFO | Padrões: 1970 registros
+2026-07-23 18:51:40,407 | INFO | Clusters: 1535 registros
+2026-07-23 18:51:40,408 | INFO | Perfis de clusters: 3 registros
+2026-07-23 18:51:40,408 | INFO | Avaliações de K: 7 registros
+2026-07-23 18:51:40,529 | INFO | Cenários com padrões agregados: 10
+2026-07-23 18:51:40,529 | INFO | Combinações cenário + cluster: 15
+2026-07-23 18:51:40,660 | INFO | Módulo 07 concluído com sucesso.

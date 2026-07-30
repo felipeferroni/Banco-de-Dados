@@ -1,0 +1,11 @@
+{
+  "raiz": ".",
+  "top_candidatos": 20,
+  "top_cenarios": 15,
+  "top_padroes": 30,
+  "top_clusters": 10,
+  "incluir_apenas_elegiveis_na_secao_principal": false,
+  "titulo_relatorio": "C7 LAB - Relatório Consolidado",
+  "subtitulo_relatorio": "Módulos 04 a 07",
+  "casas_decimais": 4
+}

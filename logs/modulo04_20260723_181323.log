@@ -1,0 +1,39 @@
+2026-07-23 18:13:23,613 | INFO | ==============================================================================
+2026-07-23 18:13:23,614 | INFO | C7 LAB - MÓDULO 04/12 - GRID SEARCH - versão 4.0.0
+2026-07-23 18:13:23,615 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-23 18:13:23,616 | INFO | ==============================================================================
+2026-07-23 18:13:23,739 | INFO | Entradas: 307
+2026-07-23 18:13:23,740 | INFO | Candles M1: 2690
+2026-07-23 18:13:23,741 | INFO | Cenários gerados: 300
+2026-07-23 18:13:23,803 | INFO | Progresso 1/300 | 0.3% | decorrido 0.1s | estimado restante 17.9s
+2026-07-23 18:13:24,331 | INFO | Progresso 10/300 | 3.3% | decorrido 0.6s | estimado restante 17.1s
+2026-07-23 18:13:24,922 | INFO | Progresso 20/300 | 6.7% | decorrido 1.2s | estimado restante 16.5s
+2026-07-23 18:13:25,564 | INFO | Progresso 30/300 | 10.0% | decorrido 1.8s | estimado restante 16.4s
+2026-07-23 18:13:26,164 | INFO | Progresso 40/300 | 13.3% | decorrido 2.4s | estimado restante 15.7s
+2026-07-23 18:13:26,782 | INFO | Progresso 50/300 | 16.7% | decorrido 3.0s | estimado restante 15.2s
+2026-07-23 18:13:27,413 | INFO | Progresso 60/300 | 20.0% | decorrido 3.7s | estimado restante 14.7s
+2026-07-23 18:13:28,021 | INFO | Progresso 70/300 | 23.3% | decorrido 4.3s | estimado restante 14.1s
+2026-07-23 18:13:28,649 | INFO | Progresso 80/300 | 26.7% | decorrido 4.9s | estimado restante 13.5s
+2026-07-23 18:13:29,271 | INFO | Progresso 90/300 | 30.0% | decorrido 5.5s | estimado restante 12.9s
+2026-07-23 18:13:29,876 | INFO | Progresso 100/300 | 33.3% | decorrido 6.1s | estimado restante 12.3s
+2026-07-23 18:13:30,537 | INFO | Progresso 110/300 | 36.7% | decorrido 6.8s | estimado restante 11.7s
+2026-07-23 18:13:31,173 | INFO | Progresso 120/300 | 40.0% | decorrido 7.4s | estimado restante 11.1s
+2026-07-23 18:13:31,793 | INFO | Progresso 130/300 | 43.3% | decorrido 8.1s | estimado restante 10.5s
+2026-07-23 18:13:32,404 | INFO | Progresso 140/300 | 46.7% | decorrido 8.7s | estimado restante 9.9s
+2026-07-23 18:13:33,015 | INFO | Progresso 150/300 | 50.0% | decorrido 9.3s | estimado restante 9.3s
+2026-07-23 18:13:33,664 | INFO | Progresso 160/300 | 53.3% | decorrido 9.9s | estimado restante 8.7s
+2026-07-23 18:13:34,347 | INFO | Progresso 170/300 | 56.7% | decorrido 10.6s | estimado restante 8.1s
+2026-07-23 18:13:35,017 | INFO | Progresso 180/300 | 60.0% | decorrido 11.3s | estimado restante 7.5s
+2026-07-23 18:13:35,624 | INFO | Progresso 190/300 | 63.3% | decorrido 11.9s | estimado restante 6.9s
+2026-07-23 18:13:36,248 | INFO | Progresso 200/300 | 66.7% | decorrido 12.5s | estimado restante 6.3s
+2026-07-23 18:13:36,902 | INFO | Progresso 210/300 | 70.0% | decorrido 13.2s | estimado restante 5.6s
+2026-07-23 18:13:37,543 | INFO | Progresso 220/300 | 73.3% | decorrido 13.8s | estimado restante 5.0s
+2026-07-23 18:13:38,210 | INFO | Progresso 230/300 | 76.7% | decorrido 14.5s | estimado restante 4.4s
+2026-07-23 18:13:38,870 | INFO | Progresso 240/300 | 80.0% | decorrido 15.1s | estimado restante 3.8s
+2026-07-23 18:13:39,488 | INFO | Progresso 250/300 | 83.3% | decorrido 15.7s | estimado restante 3.1s
+2026-07-23 18:13:40,146 | INFO | Progresso 260/300 | 86.7% | decorrido 16.4s | estimado restante 2.5s
+2026-07-23 18:13:40,782 | INFO | Progresso 270/300 | 90.0% | decorrido 17.0s | estimado restante 1.9s
+2026-07-23 18:13:41,471 | INFO | Progresso 280/300 | 93.3% | decorrido 17.7s | estimado restante 1.3s
+2026-07-23 18:13:42,127 | INFO | Progresso 290/300 | 96.7% | decorrido 18.4s | estimado restante 0.6s
+2026-07-23 18:13:42,803 | INFO | Progresso 300/300 | 100.0% | decorrido 19.1s | estimado restante 0.0s
+2026-07-23 18:13:42,912 | INFO | Módulo 04 concluído com sucesso.

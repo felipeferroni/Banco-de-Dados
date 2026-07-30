@@ -1,0 +1,26 @@
+2026-07-23 18:36:53,985 | INFO | ==============================================================================
+2026-07-23 18:36:53,986 | INFO | C7 LAB - MÓDULO 06/12 - CLUSTER - versão 6.0.0
+2026-07-23 18:36:53,988 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-23 18:36:53,988 | INFO | ==============================================================================
+2026-07-23 18:36:54,135 | INFO | Cenários selecionados: [191, 192, 184, 187, 185]
+2026-07-23 18:36:54,135 | INFO | Linhas enriquecidas após filtro: 1535
+2026-07-23 18:36:54,313 | INFO | Features numéricas selecionadas: 40
+2026-07-23 18:36:54,314 | INFO | Features categóricas selecionadas: 15
+2026-07-23 18:36:54,477 | INFO | Matriz preparada: 1535 linhas x 70 colunas
+2026-07-23 18:36:54,487 | INFO | PCA: 70 -> 18 dimensões | variância explicada 95.37%
+2026-07-23 18:36:54,488 | INFO | Avaliando K=2...
+2026-07-23 18:36:57,625 | INFO | K=2 | silhouette=0.6118 | estabilidade=1.0000 | menor cluster=125
+2026-07-23 18:36:57,625 | INFO | Avaliando K=3...
+2026-07-23 18:36:58,036 | INFO | K=3 | silhouette=0.5789 | estabilidade=1.0000 | menor cluster=15
+2026-07-23 18:36:58,036 | INFO | Avaliando K=4...
+2026-07-23 18:36:58,561 | INFO | K=4 | silhouette=0.5897 | estabilidade=0.9902 | menor cluster=5
+2026-07-23 18:36:58,561 | INFO | Avaliando K=5...
+2026-07-23 18:36:59,183 | INFO | K=5 | silhouette=0.2665 | estabilidade=0.9958 | menor cluster=5
+2026-07-23 18:36:59,183 | INFO | Avaliando K=6...
+2026-07-23 18:36:59,833 | INFO | K=6 | silhouette=0.1952 | estabilidade=0.9384 | menor cluster=5
+2026-07-23 18:36:59,834 | INFO | Avaliando K=7...
+2026-07-23 18:37:00,507 | INFO | K=7 | silhouette=0.2025 | estabilidade=0.9885 | menor cluster=5
+2026-07-23 18:37:00,507 | INFO | Avaliando K=8...
+2026-07-23 18:37:01,211 | INFO | K=8 | silhouette=0.2063 | estabilidade=0.9557 | menor cluster=5
+2026-07-23 18:37:01,222 | INFO | Melhor K selecionado: 3
+2026-07-23 18:37:01,657 | INFO | Módulo 06 concluído com sucesso.

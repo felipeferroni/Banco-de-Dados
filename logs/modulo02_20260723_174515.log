@@ -1,0 +1,20 @@
+2026-07-23 17:45:15,907 | INFO | ==============================================================================
+2026-07-23 17:45:15,907 | INFO | C7 LAB - MÓDULO 02/12 - RECONSTRUTOR - versão 2.0.0
+2026-07-23 17:45:15,908 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-23 17:45:15,908 | INFO | ==============================================================================
+2026-07-23 17:45:15,909 | INFO | Carregando C:\Nas100_dashboard\C7_LAB\database\estados.parquet
+2026-07-23 17:45:16,054 | INFO | Estados carregados: 10999 linhas, 94 colunas
+2026-07-23 17:45:16,057 | INFO | Coluna de data/hora detectada: data_hora_sistema
+2026-07-23 17:45:16,058 | INFO | Coluna de preço detectada: price
+2026-07-23 17:45:16,310 | INFO | Reconstruindo candles M1...
+2026-07-23 17:45:16,623 | INFO | M1 concluído: 2690 candles, range médio 8.01, mediano 6.50
+2026-07-23 17:45:16,677 | INFO | Reconstruindo candles M2...
+2026-07-23 17:45:16,993 | INFO | M2 concluído: 1571 candles, range médio 12.57, mediano 10.00
+2026-07-23 17:45:17,040 | INFO | Reconstruindo candles M3...
+2026-07-23 17:45:17,312 | INFO | M3 concluído: 1158 candles, range médio 15.96, mediano 12.88
+2026-07-23 17:45:17,368 | INFO | Reconstruindo candles M5...
+2026-07-23 17:45:17,646 | INFO | M5 concluído: 794 candles, range médio 21.76, mediano 17.62
+2026-07-23 17:45:17,693 | INFO | Reconstruindo candles M10...
+2026-07-23 17:45:17,958 | INFO | M10 concluído: 467 candles, range médio 31.74, mediano 25.50
+2026-07-23 17:45:18,009 | INFO | Reconstruindo campanhas com base M1...
+2026-07-23 17:46:13,136 | INFO | Módulo 02 concluído com sucesso.

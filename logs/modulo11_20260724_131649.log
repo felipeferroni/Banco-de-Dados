@@ -1,0 +1,35 @@
+2026-07-24 13:16:49,236 | INFO | ==============================================================================
+2026-07-24 13:16:49,237 | INFO | C7 LAB - MÓDULO 11/12 - VALIDADOR - versão 11.0.0
+2026-07-24 13:16:49,238 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-24 13:16:49,239 | INFO | ==============================================================================
+2026-07-24 13:16:49,264 | ERROR | Falha no Módulo 11: 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Nas100_dashboard\C7_LAB\C7_LAB_11_VALIDADOR.py", line 281, in <module>
+    try: raise SystemExit(main())
+                          ~~~~^^
+  File "C:\Nas100_dashboard\C7_LAB\C7_LAB_11_VALIDADOR.py", line 248, in main
+    ini=time.perf_counter(); mod,motor_path=carregar_motor10(raiz,cfg.arquivo_motor10); logger.info("Motor de simulação: %s",motor_path)
+                                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nas100_dashboard\C7_LAB\C7_LAB_11_VALIDADOR.py", line 113, in carregar_motor10
+    mod = importlib.util.module_from_spec(spec); assert spec.loader is not None; spec.loader.exec_module(mod)
+                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Nas100_dashboard\C7_LAB\C7_LAB_10_OTIMIZADOR_ESTRUTURAL.py", line 69, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\Lib\dataclasses.py", line 1450, in dataclass
+    return wrap(cls)
+  File "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\Lib\dataclasses.py", line 1440, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\Lib\dataclasses.py", line 1055, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 _is_kw_only))):
+                 ^^^^^^^^^^^^
+  File "C:\Users\Robo-Teste\AppData\Local\Python\pythoncore-3.14-64\Lib\dataclasses.py", line 814, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?

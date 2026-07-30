@@ -1,0 +1,33 @@
+2026-07-23 18:21:43,731 | INFO | ==============================================================================
+2026-07-23 18:21:43,732 | INFO | C7 LAB - MÓDULO 05/12 - PATTERN DISCOVERY - versão 5.0.0
+2026-07-23 18:21:43,734 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-23 18:21:43,734 | INFO | ==============================================================================
+2026-07-23 18:21:44,034 | INFO | Entradas: 307
+2026-07-23 18:21:44,034 | INFO | Estados: 10999
+2026-07-23 18:21:44,036 | INFO | Candles M1: 2690
+2026-07-23 18:21:44,036 | INFO | Cenários no Grid Search: 300
+2026-07-23 18:21:44,037 | INFO | Cenários candidatos analisados: 10
+2026-07-23 18:21:44,077 | INFO | Cobertura de associação com estados: 100.00%
+2026-07-23 18:21:44,150 | INFO | Features numéricas selecionadas: 35
+2026-07-23 18:21:44,150 | INFO | Features categóricas selecionadas: 15
+2026-07-23 18:21:44,152 | INFO | Cenário 1/10 | ID=191 | TP=2500 | SL=800 | proteção=False | timeout=120
+2026-07-23 18:21:44,676 | INFO | ID=191 | trades=307 | PF=1.0462 | padrões=197
+2026-07-23 18:21:44,677 | INFO | Cenário 2/10 | ID=192 | TP=2500 | SL=800 | proteção=False | timeout=180
+2026-07-23 18:21:45,191 | INFO | ID=192 | trades=307 | PF=1.0462 | padrões=197
+2026-07-23 18:21:45,191 | INFO | Cenário 3/10 | ID=184 | TP=2500 | SL=800 | proteção=True | timeout=120
+2026-07-23 18:21:45,717 | INFO | ID=184 | trades=307 | PF=1.0256 | padrões=197
+2026-07-23 18:21:45,718 | INFO | Cenário 4/10 | ID=187 | TP=2500 | SL=800 | proteção=True | timeout=180
+2026-07-23 18:21:46,248 | INFO | ID=187 | trades=307 | PF=1.0256 | padrões=197
+2026-07-23 18:21:46,248 | INFO | Cenário 5/10 | ID=185 | TP=2500 | SL=800 | proteção=True | timeout=120
+2026-07-23 18:21:46,759 | INFO | ID=185 | trades=307 | PF=1.0164 | padrões=197
+2026-07-23 18:21:46,759 | INFO | Cenário 6/10 | ID=188 | TP=2500 | SL=800 | proteção=True | timeout=180
+2026-07-23 18:21:47,296 | INFO | ID=188 | trades=307 | PF=1.0164 | padrões=197
+2026-07-23 18:21:47,296 | INFO | Cenário 7/10 | ID=248 | TP=3000 | SL=800 | proteção=True | timeout=180
+2026-07-23 18:21:47,820 | INFO | ID=248 | trades=307 | PF=1.0069 | padrões=197
+2026-07-23 18:21:47,820 | INFO | Cenário 8/10 | ID=247 | TP=3000 | SL=800 | proteção=True | timeout=180
+2026-07-23 18:21:48,352 | INFO | ID=247 | trades=307 | PF=1.0012 | padrões=197
+2026-07-23 18:21:48,353 | INFO | Cenário 9/10 | ID=245 | TP=3000 | SL=800 | proteção=True | timeout=120
+2026-07-23 18:21:48,886 | INFO | ID=245 | trades=307 | PF=1.0027 | padrões=197
+2026-07-23 18:21:48,886 | INFO | Cenário 10/10 | ID=244 | TP=3000 | SL=800 | proteção=True | timeout=120
+2026-07-23 18:21:49,427 | INFO | ID=244 | trades=307 | PF=0.9968 | padrões=197
+2026-07-23 18:21:49,647 | INFO | Módulo 05 concluído com sucesso.

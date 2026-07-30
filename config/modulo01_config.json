@@ -1,0 +1,65 @@
+{
+  "timezone_referencia": "America/Sao_Paulo",
+  "recursive_input": true,
+  "importar_todos_os_xlsx_mt5": true,
+  "manter_arquivos_intermediarios": false,
+  "max_linhas_amostra_delimitador": 30,
+  "max_bytes_amostra_encoding": 200000,
+  "deduplicar": true,
+  "salvar_csv_amostra": true,
+  "linhas_csv_amostra": 200,
+  "falhar_se_estados_ausentes": true,
+  "falhar_se_preco_estados_ausente": true,
+  "patterns": {
+    "estados": [
+      "^estados?_.*\\.csv$",
+      "^estado_mercado.*\\.csv$",
+      "^logger_estado.*\\.csv$"
+    ],
+    "trades": [
+      "^trades?_.*\\.csv$",
+      "^operacoes?_.*\\.csv$"
+    ],
+    "sinais": [
+      "^sinais?_.*\\.csv$"
+    ],
+    "mt5": [
+      "^historico_execucao_mt5.*\\.csv$",
+      "^mt5.*\\.xlsx$",
+      "^relatorio_mt5.*\\.xlsx$",
+      "^statement.*\\.xlsx$"
+    ],
+    "offset": [
+      "^log_offset_execucao_mt5.*\\.csv$",
+      "^offset_execucao.*\\.csv$"
+    ],
+    "bloqueios": [
+      "^bloqueios?_.*\\.csv$"
+    ],
+    "invalidacoes": [
+      "^invalidacoes?_.*\\.csv$"
+    ],
+    "quantower_raw": [
+      "^quantower_export.*\\.csv$"
+    ]
+  },
+  "prioridade_datetime": [
+    "datetime",
+    "data_qt",
+    "data_hora",
+    "time",
+    "timestamp",
+    "hora",
+    "data_abertura",
+    "data_fechamento"
+  ],
+  "prioridade_preco_estados": [
+    "price",
+    "last",
+    "ultimo",
+    "preco",
+    "preco_qt",
+    "bid",
+    "ask"
+  ]
+}

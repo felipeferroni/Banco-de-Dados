@@ -1,0 +1,56 @@
+{
+  "raiz": ".",
+  "timeframe_execucao": 1,
+  "mt5_points_per_price_unit": 100.0,
+  "fonte_entradas": "auto",
+  "limite_entradas": 0,
+  "direcoes_permitidas": [
+    "COMPRA",
+    "VENDA"
+  ],
+  "intervalo_minimo_segundos": 0,
+  "ignorar_entrada_sem_futuro": true,
+  "salvar_amostras_csv": true,
+  "linhas_amostra": 500,
+  "cenarios": [
+    {
+      "nome": "BASE_TP2000_SL1200_P60",
+      "tp_mt5": 2000,
+      "sl_mt5": 1200,
+      "protecao_ativa": true,
+      "protecao_gatilho_pct_tp": 0.6,
+      "protecao_trava_mt5": 0,
+      "timeout_minutos": 180,
+      "permitir_mesma_barra_tp_sl": "pior_caso",
+      "entrada_preco": "close",
+      "atraso_barras": 1,
+      "uma_entrada_por_campanha": false
+    },
+    {
+      "nome": "REFERENCIA_TP1500_SL2500_P70",
+      "tp_mt5": 1500,
+      "sl_mt5": 2500,
+      "protecao_ativa": true,
+      "protecao_gatilho_pct_tp": 0.7,
+      "protecao_trava_mt5": 0,
+      "timeout_minutos": 180,
+      "permitir_mesma_barra_tp_sl": "pior_caso",
+      "entrada_preco": "close",
+      "atraso_barras": 1,
+      "uma_entrada_por_campanha": false
+    },
+    {
+      "nome": "REFERENCIA_TP1500_SL1500_P70",
+      "tp_mt5": 1500,
+      "sl_mt5": 1500,
+      "protecao_ativa": true,
+      "protecao_gatilho_pct_tp": 0.7,
+      "protecao_trava_mt5": 0,
+      "timeout_minutos": 180,
+      "permitir_mesma_barra_tp_sl": "pior_caso",
+      "entrada_preco": "close",
+      "atraso_barras": 1,
+      "uma_entrada_por_campanha": false
+    }
+  ]
+}

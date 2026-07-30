@@ -1,0 +1,53 @@
+{
+  "raiz": ".",
+  "timeframe_execucao": 1,
+  "mt5_points_per_price_unit": 100.0,
+  "tp_mt5": [
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "sl_mt5": [
+    800,
+    1200,
+    1500,
+    2000,
+    2500
+  ],
+  "protecao_ativa": [
+    true,
+    false
+  ],
+  "protecao_gatilho_pct_tp": [
+    0.5,
+    0.6,
+    0.7
+  ],
+  "protecao_trava_mt5": [
+    0
+  ],
+  "timeout_minutos": [
+    60,
+    120,
+    180
+  ],
+  "atraso_barras": [
+    1
+  ],
+  "entrada_preco": [
+    "close"
+  ],
+  "mesma_barra_tp_sl": "pior_caso",
+  "percentual_treino": 0.7,
+  "minimo_trades": 30,
+  "top_n_csv": 100,
+  "salvar_checkpoint_cada": 25,
+  "max_cenarios": 0,
+  "peso_pf_validacao": 35.0,
+  "peso_resultado_validacao": 25.0,
+  "peso_estabilidade": 20.0,
+  "peso_drawdown": 10.0,
+  "peso_amostra": 10.0
+}

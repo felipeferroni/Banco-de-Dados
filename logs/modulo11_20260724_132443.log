@@ -1,0 +1,16 @@
+2026-07-24 13:24:43,501 | INFO | ==============================================================================
+2026-07-24 13:24:43,502 | INFO | C7 LAB - MÓDULO 11/12 - VALIDADOR - versão 11.0.0
+2026-07-24 13:24:43,503 | INFO | Raiz: C:\Nas100_dashboard\C7_LAB
+2026-07-24 13:24:43,504 | INFO | ==============================================================================
+2026-07-24 13:24:43,505 | ERROR | Falha no Módulo 11: name 'arquivo' is not defined
+Traceback (most recent call last):
+  File "C:\Nas100_dashboard\C7_LAB\C7_LAB_11_VALIDADOR.py", line 286, in <module>
+    try: raise SystemExit(main())
+                          ~~~~^^
+  File "C:\Nas100_dashboard\C7_LAB\C7_LAB_11_VALIDADOR.py", line 253, in main
+    ini=time.perf_counter(); mod,motor_path=carregar_motor10(raiz,cfg.arquivo_motor10); logger.info("Motor de simulação: %s",motor_path)
+                                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Nas100_dashboard\C7_LAB\C7_LAB_11_VALIDADOR.py", line 112, in carregar_motor10
+    spec = importlib.util.spec_from_file_location(nome, arquivo)
+                                                        ^^^^^^^
+NameError: name 'arquivo' is not defined
