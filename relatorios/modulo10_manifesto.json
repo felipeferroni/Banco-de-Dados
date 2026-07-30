@@ -1,0 +1,49 @@
+{
+  "modulo": "M10D",
+  "nome": "Consolidação walk-forward e preparação para holdout",
+  "versao": "1.1.0",
+  "executado_em": "2026-07-27T20:32:39.725461",
+  "holdout_utilizado": false,
+  "pesos_score": {
+    "expanding": 0.35,
+    "rolling": 0.25,
+    "stress": 0.15,
+    "profit_factor_m9": 0.1,
+    "expectancia_m9": 0.07,
+    "drawdown_m9": 0.05,
+    "robustez_mensal_m9": 0.03
+  },
+  "criterios_aprovacao": {
+    "min_folds": 2,
+    "min_pct_folds_positivos": 0.5,
+    "min_robustez_expanding": 45.0,
+    "min_robustez_rolling": 40.0,
+    "min_robustez_stress": 40.0,
+    "min_score_final": 50.0,
+    "max_setups_m11": 30
+  },
+  "estatisticas": {
+    "setups_recebidos": 100,
+    "setups_consolidados": 100,
+    "setups_aprovados_m10": 100,
+    "setups_enviados_m11": 30,
+    "clusters_aprovados": 3,
+    "lados_aprovados": 2,
+    "melhor_score_final": 99.40695454545454
+  },
+  "saidas": {
+    "consolidado": "C:\\Nas100_dashboard\\C7_LAB\\database\\validacao_walkforward_consolidada_modulo10.parquet",
+    "setups_m11": "C:\\Nas100_dashboard\\C7_LAB\\database\\setups_aprovados_modulo10_para_m11.parquet",
+    "ranking": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo10_ranking_final.csv",
+    "resumo_clusters": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo10_resumo_clusters.csv",
+    "resumo_lados": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo10_resumo_lados.csv"
+  },
+  "tempo_total_segundos": 0.2,
+  "validacao": {
+    "holdout_utilizado": false,
+    "consolidado_maior_zero": true,
+    "setup_id_unico": true,
+    "arquivo_m11_gerado": true,
+    "aprovado": true
+  }
+}

@@ -1,0 +1,6 @@
+﻿data;linhas;preco_minimo;preco_maximo;amplitude;mudancas_preco;primeiro_timestamp;ultimo_timestamp;quantidade_arquivos;arquivos;dia_valido;motivo
+2026-07-04;17430;29901,75;29901,75;0,0;0;2026-07-04 12:43:43.039;2026-07-04 13:12:47.376;1;quantower_export_20260710_044931.csv;False;PRECO_CONGELADO
+2026-07-11;6900;30068,5;30068,5;0,0;0;2026-07-11 21:00:46.136;2026-07-11 21:00:47.820;1;quantower_export_20260716_152150.csv;False;PRECO_CONGELADO
+2026-07-18;1635;28768,25;28768,25;0,0;0;2026-07-18 13:09:58.064;2026-07-18 13:09:58.520;1;quantower_export_20260723_155910.csv;False;PRECO_CONGELADO
+2026-07-25;2718;28306,5;28306,5;0,0;0;2026-07-25 18:25:38.144;2026-07-25 18:25:38.927;1;quantower_export_20260726_151506_snapshot.csv;False;PRECO_CONGELADO
+2026-07-26;3;28306,5;28306,5;0,0;0;2026-07-26 12:30:29.713;2026-07-26 14:30:51.660;1;quantower_export_20260726_151506_snapshot.csv;False;PRECO_CONGELADO

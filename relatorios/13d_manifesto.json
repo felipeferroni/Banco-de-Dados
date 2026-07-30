@@ -1,0 +1,10 @@
+{
+  "modulo": "13D",
+  "atualizado_em": "2026-07-30T19:08:36.430743",
+  "setups_avaliados": 2,
+  "prontos_revalidacao": 0,
+  "continuar_sombra": 1,
+  "reprovados": 1,
+  "capital_real_liberado": false,
+  "arquivo_prontos": "C:\\Nas100_dashboard\\C7_LAB\\database\\setups_prontos_revalidacao_13d.parquet"
+}

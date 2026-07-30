@@ -1,0 +1,502 @@
+{
+  "modulo": "M5",
+  "nome": "Engenharia de atributos avançados",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-26T19:09:14.344464",
+  "entradas": {
+    "desenvolvimento": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_desenvolvimento_modulo04.parquet",
+    "holdout": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_holdout_modulo04.parquet",
+    "features_m4": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo04_features_selecionadas.csv"
+  },
+  "parametros": {
+    "janelas": [
+      15,
+      30,
+      60,
+      120
+    ],
+    "pares_janelas": [
+      [
+        15,
+        30
+      ],
+      [
+        30,
+        60
+      ],
+      [
+        60,
+        120
+      ],
+      [
+        15,
+        60
+      ],
+      [
+        30,
+        120
+      ]
+    ],
+    "familias_dinamicas": [
+      "retorno_pontos",
+      "range_pontos",
+      "volatilidade_close_pontos",
+      "inclinacao_close_pontos_s",
+      "ticks_total",
+      "ticks_media_s",
+      "ticks_max_s",
+      "aceleracao_ticks",
+      "spread_medio",
+      "spread_minimo",
+      "spread_maximo",
+      "compressao_spread",
+      "inclinacao_spread",
+      "agressor_compra",
+      "agressor_venda",
+      "agressor_total",
+      "saldo_agressor",
+      "ratio_agressor_compra",
+      "delta_total",
+      "aceleracao_delta",
+      "inclinacao_delta",
+      "imbalance_medio",
+      "imbalance_minimo",
+      "imbalance_maximo",
+      "inclinacao_imbalance"
+    ],
+    "holdout_usado_para_ajuste": false,
+    "padronizacao": "mediana, média e desvio calculados somente no desenvolvimento"
+  },
+  "features_m4": [
+    "pre_60s_cobertura_segundos",
+    "pre_15s_cobertura_pct",
+    "pre_120s_bid_size_medio_soma",
+    "pre_60s_bid_size_medio_soma",
+    "pre_60s_ask_size_medio_soma",
+    "pre_30s_bid_size_medio_soma",
+    "pre_120s_ask_size_medio_soma",
+    "pre_120s_ticks_total",
+    "pre_15s_spread_medio",
+    "pre_30s_ask_size_medio_soma",
+    "pre_15s_spread_minimo",
+    "pre_120s_volume_incremento_soma",
+    "pre_60s_ticks_incremento_media",
+    "pre_30s_spread_minimo",
+    "pre_15s_bid_size_medio_soma",
+    "pre_15s_ask_size_medio_soma",
+    "pre_120s_imbalance_minimo",
+    "pre_30s_trades_incremento_soma",
+    "pre_60s_spread_minimo",
+    "pre_30s_imbalance_minimo",
+    "pre_30s_ticks_media_s",
+    "pre_15s_volume_incremento_media",
+    "pre_60s_imbalance_minimo",
+    "pre_120s_inclinacao_spread",
+    "pre_15s_spread_maximo",
+    "pre_15s_ticks_max_s",
+    "pre_30s_ticks_max_s",
+    "pre_30s_volatilidade_close_preco",
+    "pre_60s_volatilidade_close_pontos",
+    "pre_120s_spread_minimo",
+    "pre_120s_ticks_max_s",
+    "pre_60s_inclinacao_spread",
+    "pre_120s_imbalance_maximo",
+    "pre_60s_range_pontos",
+    "pre_15s_volatilidade_close_pontos",
+    "pre_120s_range_pontos",
+    "pre_60s_ticks_max_s",
+    "pre_30s_inclinacao_spread",
+    "pre_120s_compressao_spread",
+    "pre_15s_agressor_compra",
+    "pre_15s_agressor_venda",
+    "pre_15s_imbalance_minimo",
+    "pre_60s_imbalance_maximo",
+    "pre_30s_spread_maximo",
+    "pre_60s_compressao_spread",
+    "pre_30s_range_preco",
+    "pre_30s_aceleracao_ticks",
+    "pre_15s_range_pontos",
+    "pre_60s_aceleracao_ticks",
+    "pre_15s_inclinacao_spread"
+  ],
+  "atributos_avancados": [
+    "adv_delta_range_pontos_60s_120s",
+    "adv_ratio_range_pontos_60s_120s",
+    "adv_delta_range_pontos_15s_60s",
+    "adv_ratio_range_pontos_15s_60s",
+    "adv_delta_volatilidade_close_pontos_15s_60s",
+    "adv_ratio_volatilidade_close_pontos_15s_60s",
+    "adv_delta_ticks_max_s_15s_30s",
+    "adv_ratio_ticks_max_s_15s_30s",
+    "adv_delta_ticks_max_s_30s_60s",
+    "adv_ratio_ticks_max_s_30s_60s",
+    "adv_delta_ticks_max_s_60s_120s",
+    "adv_ratio_ticks_max_s_60s_120s",
+    "adv_delta_ticks_max_s_15s_60s",
+    "adv_ratio_ticks_max_s_15s_60s",
+    "adv_delta_ticks_max_s_30s_120s",
+    "adv_ratio_ticks_max_s_30s_120s",
+    "adv_delta_aceleracao_ticks_30s_60s",
+    "adv_ratio_aceleracao_ticks_30s_60s",
+    "adv_delta_spread_minimo_15s_30s",
+    "adv_ratio_spread_minimo_15s_30s",
+    "adv_delta_spread_minimo_30s_60s",
+    "adv_ratio_spread_minimo_30s_60s",
+    "adv_delta_spread_minimo_60s_120s",
+    "adv_ratio_spread_minimo_60s_120s",
+    "adv_delta_spread_minimo_15s_60s",
+    "adv_ratio_spread_minimo_15s_60s",
+    "adv_delta_spread_minimo_30s_120s",
+    "adv_ratio_spread_minimo_30s_120s",
+    "adv_delta_spread_maximo_15s_30s",
+    "adv_ratio_spread_maximo_15s_30s",
+    "adv_delta_compressao_spread_60s_120s",
+    "adv_ratio_compressao_spread_60s_120s",
+    "adv_delta_inclinacao_spread_15s_30s",
+    "adv_ratio_inclinacao_spread_15s_30s",
+    "adv_delta_inclinacao_spread_30s_60s",
+    "adv_ratio_inclinacao_spread_30s_60s",
+    "adv_delta_inclinacao_spread_60s_120s",
+    "adv_ratio_inclinacao_spread_60s_120s",
+    "adv_delta_inclinacao_spread_15s_60s",
+    "adv_ratio_inclinacao_spread_15s_60s",
+    "adv_delta_inclinacao_spread_30s_120s",
+    "adv_ratio_inclinacao_spread_30s_120s",
+    "adv_delta_imbalance_minimo_15s_30s",
+    "adv_ratio_imbalance_minimo_15s_30s",
+    "adv_delta_imbalance_minimo_30s_60s",
+    "adv_ratio_imbalance_minimo_30s_60s",
+    "adv_delta_imbalance_minimo_60s_120s",
+    "adv_ratio_imbalance_minimo_60s_120s",
+    "adv_delta_imbalance_minimo_15s_60s",
+    "adv_ratio_imbalance_minimo_15s_60s",
+    "adv_delta_imbalance_minimo_30s_120s",
+    "adv_ratio_imbalance_minimo_30s_120s",
+    "adv_delta_imbalance_maximo_60s_120s",
+    "adv_ratio_imbalance_maximo_60s_120s",
+    "adv_120s_range_por_tick",
+    "adv_z_pre_60s_cobertura_segundos",
+    "adv_z_pre_15s_cobertura_pct",
+    "adv_z_pre_120s_bid_size_medio_soma",
+    "adv_z_pre_60s_bid_size_medio_soma",
+    "adv_z_pre_60s_ask_size_medio_soma",
+    "adv_z_pre_30s_bid_size_medio_soma",
+    "adv_z_pre_120s_ask_size_medio_soma",
+    "adv_z_pre_120s_ticks_total",
+    "adv_z_pre_15s_spread_medio",
+    "adv_z_pre_30s_ask_size_medio_soma",
+    "adv_z_pre_15s_spread_minimo",
+    "adv_z_pre_120s_volume_incremento_soma",
+    "adv_z_pre_60s_ticks_incremento_media",
+    "adv_z_pre_30s_spread_minimo",
+    "adv_z_pre_15s_bid_size_medio_soma",
+    "adv_z_pre_15s_ask_size_medio_soma",
+    "adv_z_pre_120s_imbalance_minimo",
+    "adv_z_pre_30s_trades_incremento_soma",
+    "adv_z_pre_60s_spread_minimo",
+    "adv_z_pre_30s_imbalance_minimo",
+    "adv_z_pre_30s_ticks_media_s",
+    "adv_z_pre_15s_volume_incremento_media",
+    "adv_z_pre_60s_imbalance_minimo",
+    "adv_z_pre_120s_inclinacao_spread",
+    "adv_z_pre_15s_spread_maximo",
+    "adv_z_pre_15s_ticks_max_s",
+    "adv_z_pre_30s_ticks_max_s",
+    "adv_z_pre_30s_volatilidade_close_preco",
+    "adv_z_pre_60s_volatilidade_close_pontos",
+    "adv_z_pre_120s_spread_minimo",
+    "adv_z_pre_120s_ticks_max_s",
+    "adv_z_pre_60s_inclinacao_spread",
+    "adv_z_pre_120s_imbalance_maximo",
+    "adv_z_pre_60s_range_pontos",
+    "adv_z_pre_15s_volatilidade_close_pontos",
+    "adv_z_pre_120s_range_pontos",
+    "adv_z_pre_60s_ticks_max_s",
+    "adv_z_pre_30s_inclinacao_spread",
+    "adv_z_pre_120s_compressao_spread",
+    "adv_z_pre_15s_agressor_compra",
+    "adv_z_pre_15s_agressor_venda",
+    "adv_z_pre_15s_imbalance_minimo",
+    "adv_z_pre_60s_imbalance_maximo",
+    "adv_z_pre_30s_spread_maximo",
+    "adv_z_pre_60s_compressao_spread",
+    "adv_z_pre_30s_range_preco",
+    "adv_z_pre_30s_aceleracao_ticks",
+    "adv_z_pre_15s_range_pontos",
+    "adv_z_pre_60s_aceleracao_ticks",
+    "adv_z_pre_15s_inclinacao_spread"
+  ],
+  "atributos_removidos": [],
+  "parametros_padronizacao_dev": {
+    "pre_60s_cobertura_segundos": {
+      "mediana_dev": 59.0,
+      "media_dev": 50.1556351651501,
+      "desvio_padrao_dev": 13.64081590356783
+    },
+    "pre_15s_cobertura_pct": {
+      "mediana_dev": 1.0,
+      "media_dev": 0.845220783463495,
+      "desvio_padrao_dev": 0.23319751744843253
+    },
+    "pre_120s_bid_size_medio_soma": {
+      "mediana_dev": 175.7025486456211,
+      "media_dev": 163.2411361120518,
+      "desvio_padrao_dev": 55.047428010977164
+    },
+    "pre_60s_bid_size_medio_soma": {
+      "mediana_dev": 87.26171065145328,
+      "media_dev": 82.11199494887957,
+      "desvio_padrao_dev": 28.967860978502188
+    },
+    "pre_60s_ask_size_medio_soma": {
+      "mediana_dev": 87.22283213302777,
+      "media_dev": 82.44316996904558,
+      "desvio_padrao_dev": 29.40423705662791
+    },
+    "pre_30s_bid_size_medio_soma": {
+      "mediana_dev": 43.256722680617976,
+      "media_dev": 41.307386529601054,
+      "desvio_padrao_dev": 15.692950033789167
+    },
+    "pre_120s_ask_size_medio_soma": {
+      "mediana_dev": 175.50796005846632,
+      "media_dev": 163.8796591233232,
+      "desvio_padrao_dev": 55.459236092904696
+    },
+    "pre_120s_ticks_total": {
+      "mediana_dev": 1709.0,
+      "media_dev": 2581.142445486216,
+      "desvio_padrao_dev": 3099.7310882051884
+    },
+    "pre_15s_spread_medio": {
+      "mediana_dev": 1.0795876713959538,
+      "media_dev": 1.163204075218035,
+      "desvio_padrao_dev": 0.4541794787031276
+    },
+    "pre_30s_ask_size_medio_soma": {
+      "mediana_dev": 43.343021265706525,
+      "media_dev": 41.49909900221329,
+      "desvio_padrao_dev": 16.17969925940857
+    },
+    "pre_15s_spread_minimo": {
+      "mediana_dev": 0.8333333333333334,
+      "media_dev": 0.9027194594911324,
+      "desvio_padrao_dev": 0.34933515017568545
+    },
+    "pre_120s_volume_incremento_soma": {
+      "mediana_dev": 1181.0,
+      "media_dev": 1620.8129256089344,
+      "desvio_padrao_dev": 1665.2277340489627
+    },
+    "pre_60s_ticks_incremento_media": {
+      "mediana_dev": 128.33333333333334,
+      "media_dev": 175.99761423400568,
+      "desvio_padrao_dev": 280.2232880951139
+    },
+    "pre_30s_spread_minimo": {
+      "mediana_dev": 0.7678571428571429,
+      "media_dev": 0.8330012897667477,
+      "desvio_padrao_dev": 0.3119508309671125
+    },
+    "pre_15s_bid_size_medio_soma": {
+      "mediana_dev": 21.472205599809612,
+      "media_dev": 20.82856298598215,
+      "desvio_padrao_dev": 8.627058866381196
+    },
+    "pre_15s_ask_size_medio_soma": {
+      "mediana_dev": 21.548412698412697,
+      "media_dev": 20.966815925480514,
+      "desvio_padrao_dev": 9.358664890953557
+    },
+    "pre_120s_imbalance_minimo": {
+      "mediana_dev": 0.5,
+      "media_dev": 0.49570526899968687,
+      "desvio_padrao_dev": 0.16286261646802822
+    },
+    "pre_30s_trades_incremento_soma": {
+      "mediana_dev": 266.0,
+      "media_dev": 393.0944740766231,
+      "desvio_padrao_dev": 460.22228856690407
+    },
+    "pre_60s_spread_minimo": {
+      "mediana_dev": 0.734375,
+      "media_dev": 0.7643198039420462,
+      "desvio_padrao_dev": 0.2783186162828808
+    },
+    "pre_30s_imbalance_minimo": {
+      "mediana_dev": 0.6555555555555554,
+      "media_dev": 0.6325616673550598,
+      "desvio_padrao_dev": 0.17665577897132953
+    },
+    "pre_30s_ticks_media_s": {
+      "mediana_dev": 15.066666666666666,
+      "media_dev": 24.239550051335794,
+      "desvio_padrao_dev": 32.411228849622056
+    },
+    "pre_15s_volume_incremento_media": {
+      "mediana_dev": 9.8,
+      "media_dev": 15.808297403547419,
+      "desvio_padrao_dev": 28.402132632690403
+    },
+    "pre_60s_imbalance_minimo": {
+      "mediana_dev": 0.5555555555555555,
+      "media_dev": 0.5594725902628706,
+      "desvio_padrao_dev": 0.16829777732174855
+    },
+    "pre_120s_inclinacao_spread": {
+      "mediana_dev": 3.9889659001700156e-07,
+      "media_dev": 9.446969212749519e-05,
+      "desvio_padrao_dev": 0.015332173847519026
+    },
+    "pre_15s_spread_maximo": {
+      "mediana_dev": 1.75,
+      "media_dev": 2.1793780041609874,
+      "desvio_padrao_dev": 1.619869755939274
+    },
+    "pre_15s_ticks_max_s": {
+      "mediana_dev": 37.0,
+      "media_dev": 59.44051940598321,
+      "desvio_padrao_dev": 70.87974284930422
+    },
+    "pre_30s_ticks_max_s": {
+      "mediana_dev": 48.0,
+      "media_dev": 72.70718628125717,
+      "desvio_padrao_dev": 80.29366000130446
+    },
+    "pre_30s_volatilidade_close_preco": {
+      "mediana_dev": 1.9707975140028617,
+      "media_dev": 2.2403793771844027,
+      "desvio_padrao_dev": 1.2581841456601985
+    },
+    "pre_60s_volatilidade_close_pontos": {
+      "mediana_dev": 200.29275448702583,
+      "media_dev": 227.19802439449086,
+      "desvio_padrao_dev": 118.58053988648497
+    },
+    "pre_120s_spread_minimo": {
+      "mediana_dev": 0.6666666666666666,
+      "media_dev": 0.6957035204927753,
+      "desvio_padrao_dev": 0.24864308216870779
+    },
+    "pre_120s_ticks_max_s": {
+      "mediana_dev": 77.0,
+      "media_dev": 109.34096024543747,
+      "desvio_padrao_dev": 103.37248847678627
+    },
+    "pre_60s_inclinacao_spread": {
+      "mediana_dev": -1.3998877837187219e-05,
+      "media_dev": 7.452615095790182e-05,
+      "desvio_padrao_dev": 0.01697440176367629
+    },
+    "pre_120s_imbalance_maximo": {
+      "mediana_dev": 3.5,
+      "media_dev": 4.90941124425283,
+      "desvio_padrao_dev": 4.830588423629971
+    },
+    "pre_60s_range_pontos": {
+      "mediana_dev": 2075.0,
+      "media_dev": 2507.763799283154,
+      "desvio_padrao_dev": 1758.921667188734
+    },
+    "pre_15s_volatilidade_close_pontos": {
+      "mediana_dev": 189.63196622308564,
+      "media_dev": 216.45981960514004,
+      "desvio_padrao_dev": 133.93038094090576
+    },
+    "pre_120s_range_pontos": {
+      "mediana_dev": 2975.0,
+      "media_dev": 3533.3806431264607,
+      "desvio_padrao_dev": 2368.971686627521
+    },
+    "pre_60s_ticks_max_s": {
+      "mediana_dev": 61.0,
+      "media_dev": 89.10536200716845,
+      "desvio_padrao_dev": 90.901269746356
+    },
+    "pre_30s_inclinacao_spread": {
+      "mediana_dev": -7.644458810726501e-05,
+      "media_dev": 3.275175628599641e-05,
+      "desvio_padrao_dev": 0.02462248565441101
+    },
+    "pre_120s_compressao_spread": {
+      "mediana_dev": -1.8315018315284703e-06,
+      "media_dev": -0.006376683908191785,
+      "desvio_padrao_dev": 0.18410970136148436
+    },
+    "pre_15s_agressor_compra": {
+      "mediana_dev": 94.0,
+      "media_dev": 161.81179424635914,
+      "desvio_padrao_dev": 227.18675937632344
+    },
+    "pre_15s_agressor_venda": {
+      "mediana_dev": 95.0,
+      "media_dev": 164.64722003013128,
+      "desvio_padrao_dev": 236.67295136055589
+    },
+    "pre_15s_imbalance_minimo": {
+      "mediana_dev": 0.75,
+      "media_dev": 0.7178612575854864,
+      "desvio_padrao_dev": 0.19805356132071503
+    },
+    "pre_60s_imbalance_maximo": {
+      "mediana_dev": 2.8138888888888887,
+      "media_dev": 3.784850007405331,
+      "desvio_padrao_dev": 3.735806089259888
+    },
+    "pre_30s_spread_maximo": {
+      "mediana_dev": 2.0,
+      "media_dev": 2.4898521736636843,
+      "desvio_padrao_dev": 1.9669503849980332
+    },
+    "pre_60s_compressao_spread": {
+      "mediana_dev": 0.0006812625993725119,
+      "media_dev": -0.0034874456591123173,
+      "desvio_padrao_dev": 0.18259537493583386
+    },
+    "pre_30s_range_preco": {
+      "mediana_dev": 14.5,
+      "media_dev": 17.696579634090387,
+      "desvio_padrao_dev": 12.882785576446656
+    },
+    "pre_30s_aceleracao_ticks": {
+      "mediana_dev": 4.0,
+      "media_dev": 14.917908519252304,
+      "desvio_padrao_dev": 239.70737718641632
+    },
+    "pre_15s_range_pontos": {
+      "mediana_dev": 1025.0,
+      "media_dev": 1242.130712389698,
+      "desvio_padrao_dev": 941.8043487732732
+    },
+    "pre_60s_aceleracao_ticks": {
+      "mediana_dev": 3.0,
+      "media_dev": 19.924090419806245,
+      "desvio_padrao_dev": 440.7228293303992
+    },
+    "pre_15s_inclinacao_spread": {
+      "mediana_dev": -0.00013423168440497178,
+      "media_dev": -0.00043980804393382476,
+      "desvio_padrao_dev": 0.0469117839827187
+    }
+  },
+  "validacao": {
+    "linhas_dev_entrada": 69785,
+    "linhas_dev_saida": 69785,
+    "linhas_holdout_entrada": 4464,
+    "linhas_holdout_saida": 4464,
+    "features_m4_preservadas": 50,
+    "atributos_avancados_validos": 105,
+    "colunas_dev_holdout_identicas": true,
+    "duplicidade_colunas_dev": 0,
+    "holdout_usado_para_ajuste": false,
+    "aprovado": true
+  },
+  "saidas": {
+    "base_desenvolvimento": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_desenvolvimento_modulo05.parquet",
+    "base_holdout": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_holdout_modulo05.parquet",
+    "atributos_parquet": "C:\\Nas100_dashboard\\C7_LAB\\database\\atributos_avancados_modulo05.parquet",
+    "atributos_csv": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo05_atributos_criados.csv",
+    "resumo": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo05_resumo.csv"
+  },
+  "tempo_total_segundos": 2.98
+}

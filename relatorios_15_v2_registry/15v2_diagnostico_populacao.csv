@@ -1,0 +1,7 @@
+﻿motor_id,periodo,rotulo,trades
+motor_c7_dna_fluxo_v5_2,TREINO,GAIN,160
+motor_c7_dna_fluxo_v5_2,TREINO,STOP,99
+motor_operacional_c7_v3_1,TESTE,GAIN,125
+motor_operacional_c7_v3_1,TESTE,STOP,232
+motor_operacional_c7_v3_1,TREINO,GAIN,240
+motor_operacional_c7_v3_1,TREINO,STOP,332

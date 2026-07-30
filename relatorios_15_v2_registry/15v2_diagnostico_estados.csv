@@ -1,0 +1,3 @@
+﻿motor_id,arquivo_estados,estados_validos,colunas_numericas_primarias,colunas_categoricas_primarias,data_min_estado,data_max_estado
+motor_operacional_c7_v3_1,C:\Nas100_dashboard\estados_quantower_operacional_v3_1_v5_2.csv,25836,1,6,2026-07-20T15:09:05,2026-07-29T15:16:41
+motor_c7_dna_fluxo_v5_2,C:\Nas100_dashboard\estados_c7_dna_fluxo_v5_2.csv,28003,1,6,2026-07-17T17:40:59,2026-07-29T15:16:42

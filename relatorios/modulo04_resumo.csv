@@ -1,0 +1,9 @@
+﻿metrica;valor
+linhas_desenvolvimento;69785
+linhas_holdout_preservadas;4464
+features_candidatas;168
+features_selecionadas;50
+explosoes_desenvolvimento;1435
+taxa_explosao;0.02056315827183492
+holdout_usado_no_ranking;False
+validacao_aprovada;True

@@ -1,0 +1,188 @@
+{
+  "modulo": "M9",
+  "nome": "Otimização operacional de candidatos",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-27T16:23:01.094999",
+  "entradas": {
+    "candidatos_m8": "C:\\Nas100_dashboard\\C7_LAB\\database\\candidatos_selecionados_modulo08.parquet",
+    "base_desenvolvimento": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_desenvolvimento_modulo06.parquet"
+  },
+  "holdout_utilizado": false,
+  "metadados_base": {
+    "coluna_mfe": "mfe_pontos",
+    "coluna_mae": "mae_pontos",
+    "coluna_tempo": "inicio",
+    "coluna_duracao": "duracao_segundos"
+  },
+  "politica_simulacao": {
+    "fonte": "MFE_MAE_por_evento",
+    "empate_tp_sl": "STOP_CONSERVADOR",
+    "protecao": "ativada por MFE; aplicada somente quando TP e SL não foram atingidos"
+  },
+  "parametros": {
+    "stops": [
+      800,
+      1000,
+      1200,
+      1500,
+      1800,
+      2200,
+      2600,
+      3000,
+      3500,
+      4000
+    ],
+    "targets": [
+      1000,
+      1200,
+      1500,
+      1800,
+      2200,
+      2600,
+      3000,
+      3500,
+      4000,
+      5000,
+      6000,
+      7000
+    ],
+    "rr_minimo": 0.8,
+    "rr_maximo": 5.0,
+    "protecao_gatilho_pct": [
+      0.0,
+      0.4,
+      0.55,
+      0.7,
+      0.85
+    ],
+    "protecao_resultado_pct_target": [
+      0.0,
+      0.1,
+      0.2
+    ],
+    "janelas_horarias": [
+      [
+        "DIA_INTEIRO",
+        null,
+        null
+      ],
+      [
+        "MADRUGADA",
+        "00:00",
+        "06:00"
+      ],
+      [
+        "PRE_ABERTURA",
+        "06:00",
+        "09:30"
+      ],
+      [
+        "ABERTURA",
+        "09:30",
+        "11:30"
+      ],
+      [
+        "MEIO_DIA",
+        "11:30",
+        "14:00"
+      ],
+      [
+        "TARDE",
+        "14:00",
+        "16:30"
+      ],
+      [
+        "POS_FECHAMENTO",
+        "16:30",
+        "23:59"
+      ]
+    ],
+    "grupos_dias": [
+      [
+        "TODOS",
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      [
+        "SEG_TER_QUA",
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      [
+        "TER_QUA_QUI",
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      [
+        "QUA_QUI_SEX",
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      [
+        "SEG_QUA_SEX",
+        [
+          0,
+          2,
+          4
+        ]
+      ]
+    ],
+    "scores_minimos_m8": [
+      0,
+      45,
+      55,
+      65,
+      75
+    ],
+    "min_trades": 20,
+    "min_gains": 3,
+    "min_meses": 2,
+    "max_configuracoes_por_candidato": 12,
+    "max_setups_por_cluster_lado": 20,
+    "max_setups_gerais": 100
+  },
+  "estatisticas": {
+    "candidatos_recebidos": 502,
+    "eventos_validos_simulacao": 69785,
+    "otimizacoes_retidas": 6000,
+    "setups_selecionados_m10": 100,
+    "clusters_com_setups": 3,
+    "lados_com_setups": 2,
+    "melhor_score": 85.0,
+    "melhor_profit_factor": 999.0,
+    "melhor_expectancia_pontos": 695.7575757575758,
+    "melhor_recovery_factor": 999.0,
+    "menor_drawdown_pontos": 0.0
+  },
+  "saidas": {
+    "otimizacoes_brutas": "C:\\Nas100_dashboard\\C7_LAB\\database\\otimizacoes_brutas_modulo09.parquet",
+    "setups_otimizados": "C:\\Nas100_dashboard\\C7_LAB\\database\\setups_otimizados_modulo09.parquet",
+    "ranking_setups": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo09_ranking_setups.csv",
+    "resumo_clusters": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo09_resumo_clusters.csv",
+    "resumo_lados": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo09_resumo_lados.csv"
+  },
+  "tempo_total_segundos": 68232.2,
+  "validacao": {
+    "holdout_utilizado": false,
+    "otimizacoes_maior_zero": true,
+    "setups_maior_zero": true,
+    "setup_id_unico": true,
+    "resultados_positivos": true,
+    "expectancias_positivas": true,
+    "aprovado": true
+  }
+}

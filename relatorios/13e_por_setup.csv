@@ -1,0 +1,2 @@
+﻿setup_id;cluster;lado;trades;gains;losses;zeros;resultado_pontos;media_trade_pontos;mediana_trade_pontos;winrate_pct;profit_factor;max_drawdown_pontos;maior_gain_pontos;maior_loss_pontos;mfe_medio_pontos;mae_medio_pontos;duracao_media_segundos;payoff_medio;periodo_inicio;periodo_fim;dias_operados
+d16956b471e56f2c;4;VENDA;309;177;132;0;-719,9999999837019;-2,330097087325896;240,00000000014552;57,28155339805825;0,9931818181819725;18159,999999996944;1200,0;-800,0;623,3009708737864;552,9935275080907;46,310679611650485;0,74067796610181;2026-07-27T22:00:49;2026-07-29T14:41:14;3

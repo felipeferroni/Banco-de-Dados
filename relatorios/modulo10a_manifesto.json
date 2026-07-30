@@ -1,0 +1,55 @@
+{
+  "modulo": "M10A",
+  "nome": "Walk-forward expanding por eventos",
+  "versao": "1.1.0",
+  "executado_em": "2026-07-27T19:51:00.876246",
+  "holdout_utilizado": false,
+  "metadados_base": {
+    "mfe": "mfe_pontos",
+    "mae": "mae_pontos",
+    "tempo": "inicio"
+  },
+  "parametros": {
+    "folds_percentuais": [
+      [
+        0.6,
+        0.7
+      ],
+      [
+        0.7,
+        0.8
+      ],
+      [
+        0.8,
+        0.9
+      ],
+      [
+        0.9,
+        1.0
+      ]
+    ],
+    "min_trades_treino": 20,
+    "min_trades_validacao": 3,
+    "politica_empate_tp_sl": "STOP_CONSERVADOR"
+  },
+  "estatisticas": {
+    "setups_recebidos": 100,
+    "eventos_base": 69785,
+    "folds_planejados": 4,
+    "registros_fold": 349,
+    "setups_avaliados": 100,
+    "melhor_robustez": 100.00000000000003
+  },
+  "saidas": {
+    "folds": "C:\\Nas100_dashboard\\C7_LAB\\database\\walkforward_expanding_folds_modulo10a.parquet",
+    "resumo": "C:\\Nas100_dashboard\\C7_LAB\\database\\walkforward_expanding_resumo_modulo10a.parquet",
+    "relatorio": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo10a_resumo.csv"
+  },
+  "tempo_total_segundos": 9.94,
+  "validacao": {
+    "holdout_utilizado": false,
+    "folds_maior_zero": true,
+    "setups_maior_zero": true,
+    "aprovado": true
+  }
+}

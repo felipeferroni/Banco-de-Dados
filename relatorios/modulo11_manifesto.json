@@ -1,0 +1,72 @@
+{
+  "modulo": "M11",
+  "nome": "Validação final em holdout",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-27T20:39:57.701903",
+  "holdout_utilizado": true,
+  "arquivo_holdout": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_holdout_modulo06.parquet",
+  "hash_sha256_holdout": "53373befe782559dcfbbc5531ca90d6c6060f030d4cb9425440a95c4a5050d3f",
+  "metadados_holdout": {
+    "coluna_mfe": "mfe_pontos",
+    "coluna_mae": "mae_pontos",
+    "coluna_tempo": "inicio",
+    "linhas_validas": 4464,
+    "inicio": "2026-07-24T00:00:24",
+    "fim": "2026-07-24T17:59:28"
+  },
+  "auditoria_separacao": {
+    "arquivo_desenvolvimento_encontrado": true,
+    "hash_igual_ao_desenvolvimento": false,
+    "timestamps_sobrepostos": 0,
+    "pct_timestamps_holdout_sobrepostos": 0.0,
+    "aprovado": true
+  },
+  "politica": {
+    "reotimizacao_no_holdout": false,
+    "parametros_congelados": true,
+    "empate_tp_sl": "STOP_CONSERVADOR",
+    "selecao_diversificada": true,
+    "max_por_cluster_lado": 5
+  },
+  "criterios_aprovacao": {
+    "min_trades_holdout": 8,
+    "min_resultado_pontos": 1.0,
+    "min_expectancia_pontos": 1.0,
+    "min_profit_factor": 1.1,
+    "max_drawdown_pontos": 12000.0,
+    "min_pct_dias_positivos": 0.45,
+    "min_retencao_expectancia": 0.15,
+    "min_retencao_pf": 0.15,
+    "min_score_holdout": 50.0,
+    "max_setups_m12": 15
+  },
+  "estatisticas": {
+    "setups_recebidos_m10": 30,
+    "setups_avaliados": 30,
+    "trades_simulados_total": 148,
+    "setups_aprovados_m11": 2,
+    "setups_enviados_m12": 2,
+    "clusters_enviados_m12": 2,
+    "lados_enviados_m12": 2,
+    "melhor_score_holdout": 98.01094303186353,
+    "melhor_resultado_holdout_pontos": 26400.0
+  },
+  "saidas": {
+    "trades": "C:\\Nas100_dashboard\\C7_LAB\\database\\holdout_trades_modulo11.parquet",
+    "resultados": "C:\\Nas100_dashboard\\C7_LAB\\database\\holdout_resultados_modulo11.parquet",
+    "setups_m12": "C:\\Nas100_dashboard\\C7_LAB\\database\\setups_aprovados_modulo11_para_m12.parquet",
+    "relatorio_resultados": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo11_resultados_holdout.csv",
+    "relatorio_aprovados": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo11_aprovados_para_m12.csv",
+    "relatorio_reprovados": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo11_reprovados.csv"
+  },
+  "tempo_total_segundos": 0.78,
+  "validacao": {
+    "holdout_utilizado": true,
+    "auditoria_separacao_aprovada": true,
+    "setups_avaliados_maior_zero": true,
+    "setup_id_unico": true,
+    "arquivo_m12_gerado": true,
+    "parametros_congelados": true,
+    "aprovado": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "modulo": "M10B",
+  "nome": "Walk-forward rolling por eventos",
+  "versao": "1.1.0",
+  "executado_em": "2026-07-27T19:56:40.274633",
+  "holdout_utilizado": false,
+  "metadados_base": {
+    "mfe": "mfe_pontos",
+    "mae": "mae_pontos",
+    "tempo": "inicio"
+  },
+  "parametros": {
+    "janelas_rolling_percentuais": [
+      [
+        0.0,
+        0.5,
+        0.6
+      ],
+      [
+        0.1,
+        0.6,
+        0.7
+      ],
+      [
+        0.2,
+        0.7,
+        0.8
+      ],
+      [
+        0.3,
+        0.8,
+        0.9
+      ],
+      [
+        0.4,
+        0.9,
+        1.0
+      ]
+    ],
+    "min_trades_treino": 20,
+    "min_trades_validacao": 3,
+    "politica_empate_tp_sl": "STOP_CONSERVADOR"
+  },
+  "estatisticas": {
+    "setups_recebidos": 100,
+    "eventos_base": 69785,
+    "folds_planejados": 5,
+    "registros_fold": 407,
+    "setups_avaliados": 100,
+    "melhor_robustez": 100.00000000000003
+  },
+  "saidas": {
+    "folds": "C:\\Nas100_dashboard\\C7_LAB\\database\\walkforward_rolling_folds_modulo10b.parquet",
+    "resumo": "C:\\Nas100_dashboard\\C7_LAB\\database\\walkforward_rolling_resumo_modulo10b.parquet",
+    "relatorio": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo10b_resumo.csv"
+  },
+  "tempo_total_segundos": 9.56,
+  "validacao": {
+    "holdout_utilizado": false,
+    "folds_maior_zero": true,
+    "setups_maior_zero": true,
+    "aprovado": true
+  }
+}

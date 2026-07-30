@@ -1,0 +1,13 @@
+﻿arquivo,status,linhas_periodo,timestamp,features_criadas,motivo
+C:\Nas100_dashboard\C7_LAB\live13\13a_features_tempo_real.csv,OK,18142.0,data_hora,355.0,
+C:\Nas100_dashboard\C7_LAB\live13\13a_sinais.csv,OK,207.0,data_hora,82.0,
+C:\Nas100_dashboard\estado_mercado_tempo_real.csv,OK,17815.0,data_hora,228.0,
+C:\Nas100_dashboard\estados_c7_dna_fluxo_v5_2.csv,OK,5840.0,data_hora_sistema,1660.0,
+C:\Nas100_dashboard\sinais_c7_dna_fluxo_v5_2.csv,IGNORADO,,,,"ausente, vazio, sem timestamp ou sem período"
+C:\Nas100_dashboard\bloqueios_c7_dna_fluxo_v5_2.csv,OK,2720.0,data_hora,771.0,
+C:\Nas100_dashboard\invalidacoes_tese_sombra_v1.csv,OK,28.0,data_hora_sistema,322.0,
+C:\Nas100_dashboard\C7_LAB\relatorios_dna\03_eventos_elementares_fluxo.csv,OK,3404.0,dt,35.0,
+C:\Nas100_dashboard\C7_LAB\relatorios_dna\04_campanhas_individuais.csv,OK,50.0,inicio,190.0,
+C:\Nas100_dashboard\C7_LAB\relatorios_dna\05_estrutura_eventos_enriquecidos.csv,OK,5386.0,dt,2316.0,
+C:\Nas100_dashboard\C7_LAB\relatorios_dna\06_evolucao_score_eventos.csv,OK,5386.0,dt,2297.0,
+C:\Nas100_dashboard\C7_LAB\relatorios_dna\07_bloqueios_auditoria_completa.csv,OK,2453.0,data_hora,1481.0,

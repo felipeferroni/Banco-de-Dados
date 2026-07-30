@@ -1,0 +1,90 @@
+{
+  "modulo": "M12",
+  "nome": "Decisão final GO / NO GO",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-27T20:48:54.109125",
+  "decisao_global": "GO_CONDICIONAL",
+  "motivos_decisao_global": [
+    "2 setup(s) atingiram GO condicional.",
+    "O holdout cobriu apenas 1 dia(s); GO global exige pelo menos 5.",
+    "Recomendação: modo sombra/paper trading, sem risco financeiro real."
+  ],
+  "holdout": {
+    "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_holdout_modulo06.parquet",
+    "hash_sha256": "53373befe782559dcfbbc5531ca90d6c6060f030d4cb9425440a95c4a5050d3f",
+    "inicio": "2026-07-24T00:00:24",
+    "fim": "2026-07-24T17:59:28",
+    "eventos_validos": 4464,
+    "dias_calendario": 1,
+    "timestamps_sobrepostos": 0
+  },
+  "politica": {
+    "parametros_congelados": true,
+    "reotimizacao": false,
+    "go_condicional_significa": "MODO_SOMBRA_SEM_CAPITAL_REAL",
+    "go_significa": "PRODUCAO_CONTROLADA_COM_RISCO_REDUZIDO",
+    "no_go_significa": "BLOQUEADO"
+  },
+  "criterios_go": {
+    "min_trades": 30,
+    "min_dias": 5,
+    "min_resultado": 1.0,
+    "min_expectancia": 100.0,
+    "min_profit_factor": 1.3,
+    "min_score_holdout": 70.0,
+    "min_pct_dias_positivos": 0.55,
+    "min_retencao_expectancia": 0.35,
+    "min_retencao_pf": 0.35,
+    "max_drawdown": 8000.0
+  },
+  "criterios_go_condicional": {
+    "min_trades": 8,
+    "min_dias": 1,
+    "min_resultado": 1.0,
+    "min_expectancia": 1.0,
+    "min_profit_factor": 1.1,
+    "min_score_holdout": 50.0,
+    "min_pct_dias_positivos": 0.45,
+    "min_retencao_expectancia": 0.15,
+    "min_retencao_pf": 0.15,
+    "max_drawdown": 12000.0
+  },
+  "estatisticas": {
+    "setups_recebidos_m11": 2,
+    "setups_avaliados_m12": 2,
+    "setups_go_individual": 0,
+    "setups_go_condicional_individual": 2,
+    "setups_no_go_individual": 0,
+    "setups_liberados_producao": 0,
+    "setups_liberados_modo_sombra": 2,
+    "setups_bloqueados": 0,
+    "melhor_score_final_m12": 91.27304803746841,
+    "clusters_sombra": 2,
+    "lados_sombra": 2
+  },
+  "integridade": {
+    "hash_entrada_setups_m11": "92c46d105fa5908da1afaa835919546b8e86accb22df2d1f9f11bf6f378469ce",
+    "hash_entrada_resultados_m11": "aa3df55f408c38369561a5e24ec1087a364097a08def40f94b67166397d71e7e",
+    "hash_entrada_trades_m11": "aeebc3958f490ab6e5aea5ec7369857848145e1fa6921acc6fec24a1627862ea"
+  },
+  "saidas": {
+    "decisoes": "C:\\Nas100_dashboard\\C7_LAB\\database\\decisoes_finais_modulo12.parquet",
+    "go_producao": "C:\\Nas100_dashboard\\C7_LAB\\database\\setups_go_producao_modulo12.parquet",
+    "go_condicional": "C:\\Nas100_dashboard\\C7_LAB\\database\\setups_go_condicional_modulo12.parquet",
+    "no_go": "C:\\Nas100_dashboard\\C7_LAB\\database\\setups_no_go_modulo12.parquet",
+    "relatorio_decisoes": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo12_decisoes_finais.csv",
+    "relatorio_executivo": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo12_relatorio_executivo.txt"
+  },
+  "tempo_total_segundos": 0.25,
+  "validacao": {
+    "m11_aprovado": true,
+    "holdout_utilizado": true,
+    "separacao_holdout_aprovada": true,
+    "parametros_congelados": true,
+    "reotimizacao_realizada": false,
+    "setups_avaliados_maior_zero": true,
+    "setup_id_unico": true,
+    "arquivos_saida_gerados": true,
+    "aprovado": false
+  }
+}

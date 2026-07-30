@@ -1,0 +1,51 @@
+{
+  "modulo": "M3",
+  "nome": "Detecção e catalogação de eventos",
+  "versao": "1.1.0",
+  "executado_em": "2026-07-26T16:44:53.250853",
+  "entrada": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_quantower_consolidada_modulo025.parquet",
+  "parametros": {
+    "fator_pontos_mt5": 100.0,
+    "deslocamento_minimo_mt5": 500.0,
+    "limiar_medio_mt5": 1500.0,
+    "limiar_explosao_mt5": 2500.0,
+    "retracao_encerramento_mt5": 500.0,
+    "deslocamento_minimo_preco": 5.0,
+    "limiar_medio_preco": 15.0,
+    "limiar_explosao_preco": 25.0,
+    "retracao_encerramento_preco": 5.0,
+    "granularidade": "1 segundo",
+    "regra_holdout": "último dia com eventos"
+  },
+  "base_segundos": {
+    "ticks_lidos": 11608335,
+    "segundos_gravados": 866958,
+    "primeiro_segundo": "2026-07-01 16:16:25",
+    "ultimo_segundo": "2026-07-24 18:39:46",
+    "arquivo": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_segundos_modulo03.parquet",
+    "tamanho_mb": 59.81
+  },
+  "validacao": {
+    "eventos_total": 74249,
+    "eventos_desenvolvimento": 69785,
+    "eventos_holdout": 4464,
+    "deslocamentos_invalidos": 0,
+    "duracoes_negativas": 0,
+    "eventos_fora_de_ordem": 0,
+    "classes": {
+      "MOVIMENTO_500": 61847,
+      "MEDIO_1500": 10892,
+      "EXPLOSAO_2500": 1510
+    },
+    "aprovado": true
+  },
+  "saidas": {
+    "base_segundos": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_segundos_modulo03.parquet",
+    "eventos_completos": "C:\\Nas100_dashboard\\C7_LAB\\database\\eventos_modulo03.parquet",
+    "eventos_desenvolvimento": "C:\\Nas100_dashboard\\C7_LAB\\database\\eventos_desenvolvimento_modulo03.parquet",
+    "eventos_holdout": "C:\\Nas100_dashboard\\C7_LAB\\database\\eventos_holdout_modulo03.parquet",
+    "resumo_eventos": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo03_resumo_eventos.csv",
+    "resumo_diario": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo03_resumo_diario.csv"
+  },
+  "tempo_total_segundos": 216.1
+}

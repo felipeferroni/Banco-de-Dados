@@ -1,0 +1,58 @@
+{
+  "modulo": "M8",
+  "nome": "Geração de candidatos operacionais",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-26T21:04:57.315776",
+  "entradas": {
+    "padroes_selecionados_m7": "C:\\Nas100_dashboard\\C7_LAB\\database\\padroes_selecionados_modulo07.parquet",
+    "base_desenvolvimento": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_desenvolvimento_modulo06.parquet"
+  },
+  "holdout_utilizado": false,
+  "parametros": {
+    "blocos_temporais": 5,
+    "min_eventos_candidato": 20,
+    "min_explosoes_candidato": 3,
+    "min_suporte_cluster": 0.002,
+    "min_lift": 1.05,
+    "min_estabilidade": 0.1,
+    "max_candidatos_por_cluster_lado": 60,
+    "max_candidatos_por_regra_base": 2
+  },
+  "estatisticas": {
+    "padroes_recebidos": 500,
+    "candidatos_brutos": 1000,
+    "candidatos_aprovados_filtros": 800,
+    "candidatos_selecionados_m9": 502,
+    "clusters_com_candidatos": 5,
+    "lados_com_candidatos": 2,
+    "melhor_score": 84.52492325501375,
+    "melhor_lift": 12.665625,
+    "distribuicao_clusters": {
+      "0": 120,
+      "3": 120,
+      "4": 120,
+      "5": 60,
+      "6": 82
+    },
+    "distribuicao_lados": {
+      "COMPRA": 300,
+      "VENDA": 202
+    }
+  },
+  "saidas": {
+    "candidatos_brutos": "C:\\Nas100_dashboard\\C7_LAB\\database\\candidatos_brutos_modulo08.parquet",
+    "candidatos_selecionados": "C:\\Nas100_dashboard\\C7_LAB\\database\\candidatos_selecionados_modulo08.parquet",
+    "ranking_candidatos": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo08_ranking_candidatos.csv",
+    "resumo_clusters": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo08_resumo_clusters.csv",
+    "resumo_lados": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo08_resumo_lados.csv"
+  },
+  "tempo_total_segundos": 51.22,
+  "validacao": {
+    "holdout_utilizado": false,
+    "candidatos_brutos_maior_zero": true,
+    "candidatos_selecionados_maior_zero": true,
+    "candidato_id_unico": true,
+    "clusters_validos": true,
+    "aprovado": true
+  }
+}

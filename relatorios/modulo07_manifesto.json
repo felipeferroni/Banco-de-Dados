@@ -1,0 +1,56 @@
+{
+  "modulo": "M7",
+  "submodulo": "M7B",
+  "nome": "Consolidação e ranking final dos padrões",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-26T20:49:44.882391",
+  "entradas": {
+    "padroes_brutos": "C:\\Nas100_dashboard\\C7_LAB\\database\\padroes_brutos_modulo07a.parquet",
+    "base_desenvolvimento": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_desenvolvimento_modulo06.parquet"
+  },
+  "holdout_utilizado": false,
+  "parametros": {
+    "max_padroes_por_cluster": 100,
+    "max_padroes_por_feature_base": 12,
+    "min_lift": 1.05,
+    "min_confianca_absoluta": 0.03,
+    "min_estabilidade": 0.1,
+    "min_suporte": 0.002,
+    "min_eventos_padrao": 20,
+    "min_explosoes_padrao": 3,
+    "pesos_score": {
+      "lift": 0.28,
+      "confianca": 0.22,
+      "estabilidade": 0.18,
+      "ganho_informacao": 0.14,
+      "suporte": 0.1,
+      "recall": 0.08
+    }
+  },
+  "estatisticas": {
+    "padroes_brutos": 14000,
+    "duplicidades_removidas": 0,
+    "padroes_apos_filtros": 12957,
+    "padroes_selecionados_m8": 500,
+    "clusters_com_padroes": 5,
+    "distribuicao_qualidade": {
+      "B": 332,
+      "C": 168
+    }
+  },
+  "saidas": {
+    "padroes_ranqueados": "C:\\Nas100_dashboard\\C7_LAB\\database\\padroes_ranqueados_modulo07.parquet",
+    "padroes_selecionados": "C:\\Nas100_dashboard\\C7_LAB\\database\\padroes_selecionados_modulo07.parquet",
+    "ranking_geral": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo07_ranking_geral.csv",
+    "ranking_por_cluster": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo07_ranking_por_cluster.csv",
+    "resumo_clusters": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo07_resumo_clusters.csv"
+  },
+  "tempo_total_segundos": 2.85,
+  "validacao": {
+    "holdout_utilizado": false,
+    "padroes_ranqueados_maior_zero": true,
+    "padroes_selecionados_maior_zero": true,
+    "hash_unico": true,
+    "aprovado": true
+  }
+}

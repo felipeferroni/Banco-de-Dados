@@ -1,0 +1,15 @@
+﻿metrica;valor
+linhas_desenvolvimento;69785
+linhas_holdout;4464
+features_clusterizacao;155
+componentes_pca;3
+variancia_pca_acumulada;0.9423082483369286
+modelo_escolhido;MINIBATCH_KMEANS
+melhor_k;7
+silhouette;0.32742748868445604
+davies_bouldin;1.115243712129141
+calinski_harabasz;6393.810444637456
+proporcao_maior_cluster;0.5380525900981586
+proporcao_menor_cluster;0.000243605359317905
+entropia_normalizada;0.6485513128552186
+holdout_usado_na_escolha;False

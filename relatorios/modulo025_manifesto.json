@@ -1,0 +1,74 @@
+{
+  "modulo": "M2.5",
+  "nome": "Consolidação temporal Quantower",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-26T16:07:45.647560",
+  "pasta_origem": "C:\\Nas100_dashboard\\archive_export",
+  "padrao_arquivos": "quantower_export_20*.csv",
+  "quantidade_arquivos": 5,
+  "arquivos_processados": [
+    "quantower_export_20260703_061446.csv",
+    "quantower_export_20260710_044931.csv",
+    "quantower_export_20260716_152150.csv",
+    "quantower_export_20260723_155910.csv",
+    "quantower_export_20260726_151506_snapshot.csv"
+  ],
+  "quantidade_dias_validos": 21,
+  "quantidade_dias_excluidos": 5,
+  "dias_excluidos": [
+    {
+      "data": "2026-07-04",
+      "motivo": "PRECO_CONGELADO",
+      "linhas": 17430,
+      "amplitude": 0.0
+    },
+    {
+      "data": "2026-07-11",
+      "motivo": "PRECO_CONGELADO",
+      "linhas": 6900,
+      "amplitude": 0.0
+    },
+    {
+      "data": "2026-07-18",
+      "motivo": "PRECO_CONGELADO",
+      "linhas": 1635,
+      "amplitude": 0.0
+    },
+    {
+      "data": "2026-07-25",
+      "motivo": "PRECO_CONGELADO",
+      "linhas": 2718,
+      "amplitude": 0.0
+    },
+    {
+      "data": "2026-07-26",
+      "motivo": "PRECO_CONGELADO",
+      "linhas": 3,
+      "amplitude": 0.0
+    }
+  ],
+  "consolidacao": {
+    "linhas_lidas_passagem_2": 11775909,
+    "linhas_normalizadas": 11768796,
+    "linhas_removidas_dias_invalidos": 28686,
+    "duplicados_exatos_removidos": 131775,
+    "sobreposicoes_temporais_removidas": 0,
+    "linhas_gravadas": 11608335,
+    "primeiro_timestamp": "2026-07-01 16:16:25.180000",
+    "ultimo_timestamp": "2026-07-24 18:39:46.617000",
+    "ultimo_arquivo_processado": "quantower_export_20260726_151506_snapshot.csv",
+    "arquivo_saida": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_quantower_consolidada_modulo025.parquet",
+    "tamanho_saida_mb": 363.94
+  },
+  "validacao": {
+    "validacao_linhas": 11608335,
+    "timestamps_fora_de_ordem": 0,
+    "timestamps_repetidos": 60535,
+    "precos_ausentes": 0,
+    "preco_minimo": 28212.5,
+    "preco_maximo": 30320.0,
+    "amplitude_total": 2107.5,
+    "validacao_aprovada": true
+  },
+  "tempo_total_segundos": 616.59
+}

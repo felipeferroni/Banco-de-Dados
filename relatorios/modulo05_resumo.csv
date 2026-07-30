@@ -1,0 +1,9 @@
+﻿metrica;valor
+linhas_desenvolvimento;69785
+linhas_holdout;4464
+features_m4_preservadas;50
+atributos_avancados_criados_brutos;105
+atributos_avancados_validos;105
+atributos_avancados_removidos;0
+colunas_finais;168
+holdout_usado_no_ajuste;False

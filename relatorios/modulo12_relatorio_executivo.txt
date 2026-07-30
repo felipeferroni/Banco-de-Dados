@@ -1,0 +1,42 @@
+==============================================================================
+C7 LAB — MÓDULO 12 — RELATÓRIO EXECUTIVO GO / NO GO
+==============================================================================
+
+Executado em: 2026-07-27 20:48:54
+Decisão global: GO_CONDICIONAL
+
+HOLDOUT
+------------------------------------------------------------------------------
+Arquivo: C:\Nas100_dashboard\C7_LAB\database\base_holdout_modulo06.parquet
+Período: 2026-07-24T00:00:24 até 2026-07-24T17:59:28
+Eventos válidos: 4464
+Trades simulados no M11: 148
+Sobreposição com desenvolvimento: 0.0000%
+
+RESULTADO
+------------------------------------------------------------------------------
+Setups analisados no M12: 2
+GO pleno: 0
+GO condicional: 2
+NO GO: 0
+
+MOTIVOS DA DECISÃO GLOBAL
+------------------------------------------------------------------------------
+- 2 setup(s) atingiram GO condicional.
+- O holdout cobriu apenas 1 dia(s); GO global exige pelo menos 5.
+- Recomendação: modo sombra/paper trading, sem risco financeiro real.
+
+INTERPRETAÇÃO OPERACIONAL
+------------------------------------------------------------------------------
+Os setups sobreviventes apresentaram desempenho fora da amostra,
+mas a cobertura temporal do holdout ainda é pequena.
+A recomendação é modo sombra/paper trading, sem capital real,
+até acumular mais dias e regimes de mercado.
+
+IMPORTANTE
+------------------------------------------------------------------------------
+O M12 não reotimizou nenhum parâmetro.
+Qualquer ajuste posterior cria uma nova versão do setup e exige
+nova validação fora da amostra.
+
+==============================================================================

@@ -1,0 +1,3 @@
+﻿setup_id;cluster;lado;decisao_13d;motivo;trades_sombra;dias_sombra;profit_factor_sombra;expectancia_sombra;pct_dias_positivos_sombra;drawdown_sombra;estabilidade_global;capital_real_liberado;atualizado_em
+a61778273782bd3a;3;COMPRA;CONTINUAR_SOMBRA;dias 0/5 | trades 0/30 | PF 0.00/1.10 | expectância 0.00/1.00 | dias positivos 0.0%/45.0% | estabilidade VERMELHO;0;0;0,0;0,0;0,0;0,0;VERMELHO;False;2026-07-30T19:08:36.407242
+d16956b471e56f2c;4;VENDA;REPROVADO_SOMBRA;Degradação estatística ou drawdown acima do limite.;835;4;1,087179487179636;29,317365269511093;0,75;19999,99999998472;VERMELHO;False;2026-07-30T19:08:36.407394

@@ -1,0 +1,39 @@
+{
+  "modulo": "M3.5",
+  "nome": "Reconstrução do contexto pré-evento",
+  "versao": "1.0.0",
+  "executado_em": "2026-07-26T18:13:26.875692",
+  "entradas": {
+    "base_segundos": "C:\\Nas100_dashboard\\C7_LAB\\database\\base_segundos_modulo03.parquet",
+    "eventos": "C:\\Nas100_dashboard\\C7_LAB\\database\\eventos_modulo03.parquet"
+  },
+  "parametros": {
+    "janelas_segundos": [
+      15,
+      30,
+      60,
+      120
+    ],
+    "fim_contexto": "1 segundo antes do início do evento",
+    "fator_pontos_mt5": 100.0,
+    "cobertura_minima_60s": 0.8
+  },
+  "validacao": {
+    "eventos_entrada": 74249,
+    "contextos_saida": 74249,
+    "desenvolvimento": 69785,
+    "holdout": 4464,
+    "contextos_60s_validos": 51020,
+    "contextos_60s_validos_pct": 0.6871473016471602,
+    "duplicidade_evento_id": 0,
+    "aprovado": true
+  },
+  "saidas": {
+    "completa": "C:\\Nas100_dashboard\\C7_LAB\\database\\contextos_eventos_modulo035.parquet",
+    "desenvolvimento": "C:\\Nas100_dashboard\\C7_LAB\\database\\contextos_desenvolvimento_modulo035.parquet",
+    "holdout": "C:\\Nas100_dashboard\\C7_LAB\\database\\contextos_holdout_modulo035.parquet",
+    "resumo": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo035_resumo.csv",
+    "resumo_diario": "C:\\Nas100_dashboard\\C7_LAB\\relatorios\\modulo035_resumo_diario.csv"
+  },
+  "tempo_total_segundos": 5225.93
+}

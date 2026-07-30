@@ -1,0 +1,20 @@
+{
+  "modulo": "13B",
+  "atualizado_em": "2026-07-30T19:08:59.488372",
+  "trades": 835,
+  "gains": 484,
+  "losses": 351,
+  "protecoes": 287,
+  "resultado_pontos": 24480.000000041764,
+  "expectancia_pontos": 29.317365269511093,
+  "profit_factor": 1.087179487179636,
+  "winrate": 0.5796407185628742,
+  "max_drawdown_pontos": 19999.99999998472,
+  "sharpe": 1.0686370746829807,
+  "mfe_medio": 655.9580838323353,
+  "mae_medio": 542.5149700598803,
+  "duracao_media_s": 46.30059880239521,
+  "dias_operados": 4,
+  "dias_positivos": 3,
+  "pct_dias_positivos": 0.75
+}
